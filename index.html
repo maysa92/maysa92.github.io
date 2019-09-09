@@ -5,98 +5,27 @@
 <meta name = "viewport"
 content = "width=device-width, initial-scale = 1.0">
 <meta http-equiv = "X-UA-Compatible"
-content = "ie-edge">
+content = "ie=edge">
 
-<title>Quotes</title>
-<style>
-body{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #ffd0a8;
-    color: #333;
-    font-family: 'calibri';
-    font-weight: 400;
-    text-transform: capitalize;
-}
-
-.container{
-    text-align: center;
-    padding: 2rem;
-    border-radius: 5px;
-    background-color: #fff;
-    flex: 0 0 80%;
-}
-
-#quotebtn{
-    border: none;
-    color: #fff;
-    background: #d89156;
-    font-size: 1.3rem;
-    padding: 0.25rem 0.5rem;
-    border-radius: 7px;
-    cursor: pointer;
-}
-
-#quotebtn:hover{
-color: #fde000;
-}
-blockquote{
-    background: #f9f9f9;
-    border-left: 10px solid #fcdbbf;
-    margin: 1.5rem;
-    padding: 0.5rem;
-}
-
-#author{
-    color: #ffd000;
-    
-}
-</style>
-<script>
-const quotes = [
-  {
-    name: 'Stephan King',
-    quote: 'Get busy living or get busy dying.'
-  },
-  {
-    name: 'Abraham Lincoln',
-    quote: 'I am a success today because I had a friend who believed in me and I did not have the heart to let him down.'
-  },
-  {
-    name: 'Leo Tolstoy',
-    quote: 'If you want to be happy, be.'
-  }
-]
-
-const quotebtn = document.querySelector('#quotebtn');
-const author = document.querySelector('#author');
-const quote = document.querySelector('#quote');
-
-quotebtn.addEventListener('click', displayQuote);
-function displayQuote () {
-  let number = Math.floor(Math.random() * quotes.length);
-  author.innerHTML = quotes[number].name;
-  quote.innerHTML = quotes[number].quote;
-}
-
-</script>
+<title>Cheryl Chen</title>
+<link rel = "stylesheet" href = "./resources/css/index.css"
 </head>
 
 <body>
-    <div class = "container">
-        <h2>My favorite Quotes by Famous People</h2>
-        <button type="button" id = "quotebtn">Press to display a quote.</button>
-        <blockquote>
-            <h2 id = "quote">quote</h2>
-        </blockquote>
-            <h3 id = "author">author of the quote</h3>
+  <div class = "banner">
+      <h1 class = "bold" >Cheryl's</h1>
+      <img id="pic" src ="./resources/image/photography2019.png" alt ="">
+      <p>Everything's better with a cat.</p>
 
-    </div>
-    
-        
-    
+  </div>
+  
+  
+  <div>
+      <span class = "bold" id = "second">Cheryl Chen</span>
+      <p class = "bold" id = "description">Graphic Design, Video Editing, Writing, Coding</p>
+      <p>Previous website for my design artworks</p>
+
+  </div>
 </body>
 
 

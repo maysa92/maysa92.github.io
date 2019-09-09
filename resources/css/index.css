@@ -1,0 +1,28 @@
+.banner{
+    background-color: #00AAAA;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    padding: 100px 0;
+} 
+
+
+#pic{
+height: 150px;
+margin: 5px;
+}
+
+#second{
+    color: #00AAAA;
+    font-size: 75px;
+}
+
+#description{
+    color: #778899;
+
+}
+.bold{
+    font-weight: 900;
+
+
+}
