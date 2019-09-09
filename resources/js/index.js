@@ -21,3 +21,4 @@ function rotate(element, event){
 
 leftbtn.onclick = rotatecat;
 rightbtn.onclick = rotatecat;
+
