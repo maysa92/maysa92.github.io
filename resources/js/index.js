@@ -33,3 +33,33 @@ function changecolor() {
     let random = Math.floor(Math.random() * colors.length)
     station.style.backgroundColor = colors[random]
 }
+
+const quotes = [
+    {
+      name: 'Stephan King',
+      quote: 'Get busy living or get busy dying.'
+    },
+    {
+      name: 'Abraham Lincoln',
+      quote: 'I am a success today because I had a friend who believed in me and I did not have the heart to let him down.'
+    },
+    {
+      name: 'Leo Tolstoy',
+      quote: 'If you want to be happy, be.'
+    }
+  ]
+  
+  const quotebtn = document.querySelector('#quotebtn');
+  const author = document.querySelector('#author');
+  const quote = document.querySelector('#quote');
+  
+  quotebtn.addEventListener('click', displayQuote);
+  
+  function displayQuote () {
+    let number = Math.floor(Math.random() * quotes.length);
+    author.innerHTML = quotes[number].name;
+    quote.innerHTML = quotes[number].quote;
+  }
+  
+  
+  

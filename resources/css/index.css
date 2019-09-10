@@ -5,7 +5,48 @@
     text-align: center;
     padding: 100px 0;
 } 
+body{
+    
+    font-family: 'calibri';
+    font-weight: 400;
+    text-transform: capitalize;
+}
 
+.container{
+    margin-top: 50px;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: rgb(149, 221, 243);
+    flex: 0 0 80%;
+}
+
+
+#quotebtn{
+    border: none;
+    color: #fff;
+    background: #00AAAA;
+    font-size: 1.3rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#quotebtn:hover{
+color: #eee285;
+}
+blockquote{
+    background: #f9f9f9;
+    border-left: 10px solid #d3b397;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 12px;
+}
+
+#author{
+    color: #7021a5;
+    
+}
 
 #pic{
 height: 150px;
@@ -20,7 +61,6 @@ margin: 5px;
 
 #description{
     color: #778899;
-    text-align: center;
 
 }
 .bold{
@@ -30,7 +70,7 @@ margin: 5px;
 }
 
 #header{
-    width = 960px;
+    
     margin: 0 auto;
     overflow: hidden;
 }
