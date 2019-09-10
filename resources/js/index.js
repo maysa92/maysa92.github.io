@@ -22,3 +22,14 @@ function rotate(element, event){
 leftbtn.onclick = rotatecat;
 rightbtn.onclick = rotatecat;
 
+const colorbtn = document.querySelector('.colorbtn')
+const station = document.querySelector('.banner')
+
+const colors = ['#5555FF', '＃99DD00', '#3b5998', '#BBBB00', '#DDAA00']
+
+colorbtn.addEventListener('click', changecolor)
+
+function changecolor() {
+    let random = Math.floor(Math.random() * colors.length)
+    station.style.backgroundColor = colors[random]
+}
