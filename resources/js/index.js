@@ -54,12 +54,53 @@ const quotes = [
   const quote = document.querySelector('#quote');
   
   quotebtn.addEventListener('click', displayQuote);
-  
+
   function displayQuote () {
     let number = Math.floor(Math.random() * quotes.length);
     author.innerHTML = quotes[number].name;
     quote.innerHTML = quotes[number].quote;
   }
   
+function showtime () {
+  let date = new Date();
+  let hours = date.getHours();
+  let minutes = date.getMinutes();
+  let seconds = date.getSeconds();
+
+let formatHours = convertFormat(hours)
+  hours = checkTime(hours)
+  hours = addzero(hours)
+  minutes = addzero(minutes)
+  seconds = addzero(seconds)
+
+document.getElementById('clock').innerHTML = `${hours} : ${minutes} : ${seconds} ${formatHours}`
+
+  }
   
-  
+  function convertFormat (time) {
+      let format = 'AM';
+      if (time >= 12) {
+          format = 'PM';
+      }
+      return format
+  }
+
+function checkTime (time) {
+  if (time > 12) {
+    time = time -12
+  }
+  if (time === 0) {
+    time = 12;
+  }
+  return time
+}
+
+function addzero (time) {
+      if (time < 10) {
+    time = "0" + time;
+      }
+      return time
+
+  }
+
+  setInterval(showtime, 1000)

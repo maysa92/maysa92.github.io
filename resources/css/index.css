@@ -33,18 +33,18 @@ body{
 }
 
 #quotebtn:hover{
-color: #eee285;
+color: #e8fa99;
 }
 blockquote{
     background: #f9f9f9;
-    border-left: 10px solid #d3b397;
+    border-left: 10px solid #00AAAA;
     margin: 1.5rem;
     padding: 0.5rem;
     font-size: 12px;
 }
 
 #author{
-    color: #7021a5;
+    color: #00AAAA;
     
 }
 
@@ -55,12 +55,15 @@ margin: 5px;
 
 #second{
     color: #00AAAA;
-    font-size: 75px;
+    font-size: 55px;
     text-align: center;
 }
 
 #description{
-    color: #778899;
+    color: #fff;
+    width: 420px;
+    font-size: 15px;
+    background-color: #00AAAA;
 
 }
 .bold{
@@ -90,4 +93,22 @@ margin: 5px;
 }
 #header li a:hover{
     background-color: #CCDDFF;
+}
+
+#clock{
+    font-family: "Orbitron", sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    align-content: right;
+    padding-top: 10px;
+
+}
+
+.cl{
+    text-align: center;
+    background: #778899;
+    margin-top: 30px;
+    
+    justify-content: center;
+    flex: 0 0 80%;
 }
