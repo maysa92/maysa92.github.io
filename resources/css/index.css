@@ -15,10 +15,12 @@ margin: 5px;
 #second{
     color: #00AAAA;
     font-size: 75px;
+    text-align: center;
 }
 
 #description{
     color: #778899;
+    text-align: center;
 
 }
 .bold{
