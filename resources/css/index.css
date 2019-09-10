@@ -5,6 +5,13 @@
     text-align: center;
     padding: 100px 0;
 } 
+
+.banner2{
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px 0;
+} 
+
 body{
     
     font-family: 'calibri';
@@ -53,6 +60,9 @@ height: 150px;
 margin: 5px;
 }
 
+#screenshot{
+width: 100vw;
+}
 #second{
     color: #00AAAA;
     font-size: 55px;
