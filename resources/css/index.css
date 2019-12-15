@@ -118,8 +118,7 @@ width: 100vw;
 .cl{
     text-align: center;
     background: #778899;
-    margin-top: 20px;
-    
+    margin-top: 10px;
     justify-content: center;
     flex: 0 0 80%;
 }

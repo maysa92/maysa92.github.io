@@ -11,25 +11,26 @@ function rotatecat (event){
 }
 
 function rotate (element, event){
-    if(event.target.id == 'leftbtn'){
-        rotation = rotation - 15;
-    }else{
-        rotation = rotation + 15;
+    if (event.target.id == 'leftbtn') 
+    {
+      rotation = rotation - 15;
+    }
+    else
+    {
+      rotation = rotation + 15;
     }
     element.style.transform = 'rotate('+rotation+'deg)';
 }
 
-leftbtn.onclick = rotatecat;
-rightbtn.onclick = rotatecat;
+leftbtn.onclick = rotatecat
+rightbtn.onclick = rotatecat
 
 const colorbtn = document.querySelector('.colorbtn');
 const station = document.querySelector('.banner');
-const colors = ['#5555FF', '＃99DD00', '#3b5998', '#BBBB00', '#DDAA00'];
-
+const colors = ['#3a4537', 'blue', '#3b5998', '#BBBB00', '#DDAA00'];
 colorbtn.addEventListener('click', changecolor);
-
 function changecolor () {
-  const random = Math.floor(Math.random() * colors.length);
+  const random = Math.floor(Math.random()*colors.length)
   station.style.backgroundColor = colors[random];
 }
 
@@ -46,7 +47,7 @@ const quotes = [
       name: 'Leo Tolstoy',
       quote: 'If you want to be happy, be.'
     }
-  ];
+  ]
 const quotebtn = document.querySelector('#quotebtn');
 const author = document.querySelector('#author');
 const quote = document.querySelector('#quote');
