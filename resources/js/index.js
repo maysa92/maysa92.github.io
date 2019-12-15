@@ -5,12 +5,12 @@ const rightbtn = document.getElementById('rightbtn');
 
 let rotation = 0;
 
-function rotatecat(event){
+function rotatecat (event){
     const cat = document.getElementById('pic');
     rotate(cat, event);
 }
 
-function rotate(element, event){
+function rotate (element, event){
     if(event.target.id == 'leftbtn'){
         rotation = rotation - 15;
     }else{
@@ -22,16 +22,15 @@ function rotate(element, event){
 leftbtn.onclick = rotatecat;
 rightbtn.onclick = rotatecat;
 
-const colorbtn = document.querySelector('.colorbtn')
-const station = document.querySelector('.banner')
+const colorbtn = document.querySelector('.colorbtn');
+const station = document.querySelector('.banner');
+const colors = ['#5555FF', '＃99DD00', '#3b5998', '#BBBB00', '#DDAA00'];
 
-const colors = ['#5555FF', '＃99DD00', '#3b5998', '#BBBB00', '#DDAA00']
+colorbtn.addEventListener('click', changecolor);
 
-colorbtn.addEventListener('click', changecolor)
-
-function changecolor() {
-    let random = Math.floor(Math.random() * colors.length)
-    station.style.backgroundColor = colors[random]
+function changecolor () {
+  const random = Math.floor(Math.random() * colors.length);
+  station.style.backgroundColor = colors[random];
 }
 
 const quotes = [
@@ -47,19 +46,18 @@ const quotes = [
       name: 'Leo Tolstoy',
       quote: 'If you want to be happy, be.'
     }
-  ]
+  ];
+const quotebtn = document.querySelector('#quotebtn');
+const author = document.querySelector('#author');
+const quote = document.querySelector('#quote');
   
-  const quotebtn = document.querySelector('#quotebtn');
-  const author = document.querySelector('#author');
-  const quote = document.querySelector('#quote');
-  
-  quotebtn.addEventListener('click', displayQuote);
+quotebtn.addEventListener('click', displayQuote);
 
-  function displayQuote () {
+function displayQuote () {
     let number = Math.floor(Math.random() * quotes.length);
     author.innerHTML = quotes[number].name;
     quote.innerHTML = quotes[number].quote;
-  }
+}
   
 function showtime () {
   let date = new Date();
@@ -75,15 +73,15 @@ let formatHours = convertFormat(hours)
 
 document.getElementById('clock').innerHTML = `${hours} : ${minutes} : ${seconds} ${formatHours}`
 
-  }
+}
   
-  function convertFormat (time) {
+function convertFormat (time) {
       let format = 'AM';
       if (time >= 12) {
           format = 'PM';
       }
       return format
-  }
+}
 
 function checkTime (time) {
   if (time > 12) {
@@ -101,14 +99,6 @@ function addzero (time) {
       }
       return time
 
-  }
+}
 
-  setInterval(showtime, 1000)
-
-//jquery
-$(document).ready(function(){
-
-  $('.banner').
-
-
-});
+setInterval(showtime, 1000)
