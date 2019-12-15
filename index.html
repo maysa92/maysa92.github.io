@@ -11,14 +11,13 @@ content = "ie=edge">
 <link rel = "stylesheet" href = "./resources/css/index.css">
 <link href = "https://fonts.googleapis.com/css?family=Orbitron"
 rel = "stylesheet">
+<script src="jquery/src/jquery.js"></script>
 </head>
 
 <body>
   <nav id = "header">
-    <ul>
-      <li><a class = "home" href = "#">Rotation Station</a></li>
-      <li><a class = "pagelink" href = "#">Quote Station</a></li>
-      <li><a class = "pagelink" href = "#"> Digital Clock </a> </li>
+    <ul style="list-style-type:none">
+      <li><a class = "pagelink" href = "">  </a> </li>
    
     </ul>
   </nav>
@@ -35,15 +34,6 @@ rel = "stylesheet">
 
   </div>
   
-  <div style="text-transform:uppercase;">
-      <span class = "bold" id = "second">Cheryl Chen</span>
-      <p class = "bold" id = "description">Graphic Design, Video Editing, Writing, Coding</p>
-      
-
-      <div class = "banner2" id = "sc">
-          <p></p>
-          <a href="http://b9934002.wixsite.com/cherylchensinrou"><img id="screenshot" src ="./resources/image/123.png" alt =""></a>
-  </div>
 
   <div class = "container">
     <h2 style = "color:#fff">Quote Station</h2>
@@ -55,17 +45,35 @@ rel = "stylesheet">
 
 </div>
 <div class = "cl" id = "clock">  
-    
 </div>
 
-  <script src = "./resources/js/index.js">
 
 
 
-  </script>
+<script src = "./resources/js/index.js">
+</script>
+
+
+<div style="text-transform:uppercase;">
+      <span class = "bold" id = "second">To be Continued..</span>
+      <div class = "banner2" id = "sc">
+          <p></p>
+          <a href="http://b9934002.wixsite.com/cherylchensinrou"><img id="screenshot" src ="./resources/image/123.png" alt =""></a>
+</div>
+
+<div class = "container2">
+    <h2 style = "color:#fff">Contact Me!</h2>
+    <form action="" method="put">
+    <label for="Name"> Name: </label> 
+    <input id="Name" name="Name" required>
+    <label for="email"> email: </label>
+    <input id="email" name="email" type="email" required>
+    <br>
+    <label for="message"> Message: </label>
+    <input id="Message" name="Message" size = "100" placeholder="What do you want to say?" required>
+    <button> Submit </button>
+
+</div>
 </body>
-
-
-
 
 </html>

@@ -1,15 +1,15 @@
 .banner{
     background-color: #00AAAA;
     color: white;
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
-    padding: 100px 0;
+    padding: 50px 0;
 } 
 
 .banner2{
-    margin-top: 10px;
+    margin-top: 5px;
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0;
 } 
 
 body{
@@ -20,14 +20,21 @@ body{
 }
 
 .container{
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
     padding: 2rem;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: rgb(149, 221, 243);
     flex: 0 0 80%;
 }
-
+.container2{
+    margin-top: 20px;
+    text-align: left;
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: rgb(158, 119, 146);
+    flex: 0 0 80%;
+}
 
 #quotebtn{
     border: none;
@@ -35,7 +42,7 @@ body{
     background: #00AAAA;
     font-size: 1.3rem;
     padding: 0.25rem 0.5rem;
-    border-radius: 7px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -57,7 +64,7 @@ blockquote{
 
 #pic{
 height: 150px;
-margin: 5px;
+margin: 3px;
 }
 
 #screenshot{
@@ -65,17 +72,11 @@ width: 100vw;
 }
 #second{
     color: #00AAAA;
-    font-size: 55px;
+    font-size: 45px;
     text-align: center;
 }
 
-#description{
-    color: #fff;
-    width: 420px;
-    font-size: 15px;
-    background-color: #00AAAA;
 
-}
 .bold{
     font-weight: 900;
 
@@ -95,11 +96,11 @@ width: 100vw;
 #header li a{
     display:block;
     width:192px;
-    height:50px;
-    line-height:50px;
+    height:35px;
+    line-height:40px;
     font-size:15px;
     color: #00AAAA;
-    text-align:center;
+    text-align:left;
 }
 #header li a:hover{
     background-color: #CCDDFF;
@@ -110,14 +111,14 @@ width: 100vw;
     font-size: 3rem;
     color: #fff;
     align-content: right;
-    padding-top: 10px;
+    padding-top: 5px;
 
 }
 
 .cl{
     text-align: center;
     background: #778899;
-    margin-top: 30px;
+    margin-top: 20px;
     
     justify-content: center;
     flex: 0 0 80%;

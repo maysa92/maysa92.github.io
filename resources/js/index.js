@@ -104,3 +104,11 @@ function addzero (time) {
   }
 
   setInterval(showtime, 1000)
+
+//jquery
+$(document).ready(function(){
+
+  $('.banner').
+
+
+});
