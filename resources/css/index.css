@@ -24,7 +24,7 @@ body{
     text-align: center;
     padding: 2rem;
     border-radius: 8px;
-    background-color: rgb(149, 221, 243);
+    background-color: rgb(149, 182, 243);
     flex: 0 0 80%;
 }
 .container2{
@@ -58,7 +58,7 @@ blockquote{
 }
 
 #author{
-    color: #00AAAA;
+    color: rgb(255, 255, 255);
     
 }
 
@@ -117,8 +117,20 @@ width: 100vw;
 
 .cl{
     text-align: center;
-    background: #778899;
+    background: #5f7994;
     margin-top: 10px;
     justify-content: center;
     flex: 0 0 80%;
 }
+
+.weather
+{
+    background: linear-gradient(rgb(126, 226, 240),rgb(73, 89, 184));
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20 px;
+    font-family: "Orbitron", sans-serif;
+    color: white;
+    align-items: center;
+} 
