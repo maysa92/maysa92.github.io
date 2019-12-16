@@ -20,11 +20,11 @@ body{
 }
 
 .container{
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
     padding: 2rem;
     border-radius: 8px;
-    background-color: rgb(149, 182, 243);
+    background: linear-gradient(rgb(132, 228, 223),rgb(126, 226, 240));
     flex: 0 0 80%;
 }
 .container2{
@@ -32,8 +32,12 @@ body{
     text-align: left;
     padding: 2rem;
     border-radius: 8px;
-    background-color: rgb(158, 119, 146);
+    background-color: rgb(155, 127, 147);
     flex: 0 0 80%;
+}
+
+.conversation{
+    text-align: center;
 }
 
 #quotebtn{
@@ -47,7 +51,7 @@ body{
 }
 
 #quotebtn:hover{
-color: #e8fa99;
+color: #9be08a;
 }
 blockquote{
     background: #f9f9f9;
@@ -82,8 +86,8 @@ width: 100vw;
 
 
 .bold{
-    font-weight: 900;
-    
+    font-weight: 700;
+    color: white;
 
 }
 
@@ -105,9 +109,11 @@ width: 100vw;
     font-size:15px;
     color: #00AAAA;
     text-align:left;
+    font-weight: 500;
 }
 #header li a:hover{
-    background-color: #CCDDFF;
+    color: rgb(104, 207, 176);
+    
 }
 
 #clock{
