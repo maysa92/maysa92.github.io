@@ -71,15 +71,19 @@ margin: 3px;
 width: 100vw;
 }
 #second{
-    color: #00AAAA;
-    font-size: 45px;
+    display:block;
+    background: #00AAAA;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
     text-align: center;
+    width: 100%;
+    margin-top: 10px;
 }
 
 
 .bold{
     font-weight: 900;
-
+    
 
 }
 

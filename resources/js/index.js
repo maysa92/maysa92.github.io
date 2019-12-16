@@ -177,3 +177,14 @@ function displayweather(){
   description.innerHTML = weather.description;
   locatione.innerHTML = `${weather.city}, ${weather.country}`;
 }
+
+$(document).ready(function(){
+  $('#screenshot').hide();
+  $('.container2').hide();
+  $('.bold').click(function(event){
+  $('#screenshot').slideToggle();
+  $('.container2').slideToggle();
+  $('.bold').hide();
+  });
+
+});
