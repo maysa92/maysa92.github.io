@@ -178,6 +178,8 @@ function displayweather(){
   locatione.innerHTML = `${weather.city}, ${weather.country}`;
 }
 
+
+//jquery
 $(document).ready(function(){
   $('#screenshot').hide();
   $('.container2').hide();
