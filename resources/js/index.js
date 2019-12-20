@@ -1,4 +1,3 @@
-alert("Hello! Welcome to my second website - the first was built with Wix.com for my design artworks.");
 //DOM elements
 const leftbtn = document.getElementById('leftbtn');
 const rightbtn = document.getElementById('rightbtn');
@@ -22,8 +21,8 @@ function rotate (element, event){
     element.style.transform = 'rotate('+rotation+'deg)';
 }
 
-leftbtn.onclick = rotatecat
-rightbtn.onclick = rotatecat
+leftbtn.onclick = rotatecat;
+rightbtn.onclick = rotatecat;
 
 const colorbtn = document.querySelector('.colorbtn');
 const station = document.querySelector('.banner');
@@ -179,14 +178,3 @@ function displayweather(){
 }
 
 
-//jquery
-$(document).ready(function(){
-  $('#screenshot').hide();
-  $('.container2').hide();
-  $('.bold').click(function(event){
-  $('#screenshot').slideToggle();
-  $('.container2').slideToggle();
-  $('.bold').hide();
-  });
-
-});

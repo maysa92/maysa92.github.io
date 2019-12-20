@@ -1,16 +1,127 @@
+
+
+
 .banner{
     background-color: #00AAAA;
     color: white;
     margin-top: 20px;
     text-align: center;
     padding: 50px 0;
+    
 } 
 
-.banner2{
-    margin-top: 5px;
+.highlight{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #a7cac3;
+}
+
+section{
+    margin-top: 20px;
+    display: flex;
+    height: 100vh;
+}
+.section2{
+    margin-top: 260px;
+    display: flex;
+    height: 100vh;
+}
+.gallery{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.gallery-description{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.introduction{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.introduction h2{
+    margin-top: 490px;
+    margin-bottom: 0;
     text-align: center;
-    padding: 5px 0;
-} 
+    color: rgb(46, 120, 133);
+}
+
+
+.details{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    text-align: left;
+    margin-left: 50px;
+    margin-top:80px; 
+    margin-bottom: 0;
+    color: rgb(46, 120, 133);
+}
+#designer{
+    color: rgb(201, 87, 87);
+    margin-left: 70px;
+}
+#frontend{
+    color: rgb(142, 142, 146);
+    margin-left: 70px;
+}
+#catlover{
+    color: rgb(158, 116, 137);
+    margin-left: 70px;
+}
+.details h3{
+    margin-top:0px;
+}
+.gallery-description h2{
+    color: rgb(46, 120, 133);
+}
+.gallery-description h5{
+    color: rgb(83, 87, 87);
+    margin: 10px;
+}
+.gallery-description p{
+    color: rgb(140, 143, 143);
+    margin: 30px;
+    margin-top:-20px; 
+    font-size: 14px;
+}
+.introduction p{
+    color: rgb(140, 143, 143);
+    margin: 30px;
+    margin-top:-20px; 
+    font-size: 14px;
+}
+.preview{
+    display: flex;
+    width: 60%;
+    border: 2px solid #a7cac3;
+}
+.preview img{
+    height: 100px;
+    flex-grow: 1;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+img.active{
+    opacity: 1;
+}
+
 
 body{
     
@@ -19,12 +130,12 @@ body{
     text-transform: capitalize;
 }
 
-.container{
+.containerx{
     margin-top: 10px;
     text-align: center;
     padding: 2rem;
     border-radius: 8px;
-    background: linear-gradient(rgb(132, 228, 223),rgb(126, 226, 240));
+    background: linear-gradient(rgb(178, 196, 113),rgb(180, 233, 184));
     flex: 0 0 80%;
 }
 .container2{
@@ -32,7 +143,7 @@ body{
     text-align: left;
     padding: 2rem;
     border-radius: 8px;
-    background-color: rgb(155, 127, 147);
+    background-color: rgb(148, 134, 182);
     flex: 0 0 80%;
 }
 
@@ -75,25 +186,25 @@ margin: 3px;
 width: 100vw;
 }
 #second{
-    display:block;
-    background: #00AAAA;
+    background: rgb(95, 98, 126);
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 22px;
     text-align: center;
     width: 100%;
-    margin-top: 10px;
+    flex-grow: 1;
 }
 
 
 .bold{
+    width:100%;
     font-weight: 700;
     color: white;
-
+    cursor: pointer;
 }
 
 #header{
-    
-    margin: 0 auto;
+    width: 40%;
+    margin: 0 ;
     overflow: hidden;
 }
 
@@ -101,6 +212,7 @@ width: 100vw;
     float: left;
     color: #00AAAA
 }
+
 #header li a{
     display:block;
     width:192px;
@@ -111,8 +223,17 @@ width: 100vw;
     text-align:left;
     font-weight: 500;
 }
+
 #header li a:hover{
-    color: rgb(104, 207, 176);
+    color: rgb(149, 104, 207);
+    
+}
+.pagelink{
+    align-items: left;
+    margin: 0;
+}
+#second:hover{
+    color: rgb(226, 194, 233);
     
 }
 
