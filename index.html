@@ -7,79 +7,157 @@ content = "width=device-width, initial-scale = 1.0">
 <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
 
 <title>Cheryl Chen</title>
-<link rel = "stylesheet" href = "./resources/css/index.css">
+<link rel = "stylesheet" href = "./resources/css/index.css"
 <link href = "https://fonts.googleapis.com/css?family=Orbitron"
 rel = "stylesheet">
-
-
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
 
-  <nav id = "header">
-    <ul style="list-style-type:none">
-      <li><a class = "pagelink" href = "./index.html"> Home </a> </li>
-      <li><a class = "pagelink" href = "./myartwork.html"> My Artwork </a> </li>
-   
-    </ul>
-  </nav>
 
-
-  <div class = "banner" id = "cheryl-station">
-      <h2 class = "bold" >Let's do some Rotation</h2>
-      <button type="button" class = "colorbtn">Press to change color</button>
-      <p></p>
-      <img id="pic" src ="./resources/image/photography2019.png" alt ="">
-      <p>Everything's better with a cat.</p>
-      <button type = "button" id = "leftbtn">Rotate Left</button>
-      <button type = "button" id = "rightbtn">Rotate Right</button>
-
+<header>
+  <div class="menu-toggler">
+  <div class="bar half start"></div>
+  <div class="bar">  Menu</div>
+  <div class="bar half end"></div>
   </div>
-  
+  <nav class="top-nav">
+      <ul class="nav-list">
+      
+        <li>
+          <a href = "index.html" class="nav-link">Home</a>
+        </li>
+        <li>
+          <a href = "#about" class="nav-link">About</a>
+        </li>
+        <li>
+          <a href = "#gallery" class="nav-link">Gallery</a>
+        </li>
+        <li>
+          <a href = "#experience" class="nav-link">Experience</a>
+        </li>
+        <li>
+          <a href = "#contact" class="nav-link">Contact</a>
+        </li>
+    </nav>
+<div class="landing-text">
+<h2>Cheryl Chen</h2>
+<h6>Web Designer and Front End Developer</h6>
+</header>
 
-  <div class = "containerx">
-    <h2 style = "color:#fff">Let's have some Quotes</h2>
-    <button type="button" id = "quotebtn">Press to display a quote by famous people.</button>
-    <blockquote>
-        <h2 id = "quote">quote</h2>
-    </blockquote>
-        <h3 id = "author">author of the quote</h3>
+
+
+<section class="about" id="about">
+  <div class="container">
+    <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+      <img src="./resources/image/girl.jpg" alt="">
   </div>
-
-
-  <div class = "cl" id = "clock"> </div>
-
-
-
-  <div class="weather">
-    <h2 style = "color:#fff">Here comes the weather</h2>
-    <div class = "title"><p>Weather</p></div>
-    <div class = "notification"></div>
-    <div class = "weathercontainer">
-    <div class = "temperature"><p> - °<span>C</span></p></div>
-    <div class = "description"><p> - </p> </div>
-    <div class = "location"><p> - </p> </div>
+  <div class="about-details" data-aos="fade-left" data-aos-delay="500">
+    <div class="about-heading">
+      <h1>About</h1>
+      <h6>Myself</h6>
+    </div>
+    <p> I Am Backed By A BA In Design And Proficiencies In Adobe Creative Suite, HTML, CSS, JS, WordPress And A Range Of Other Design, Video, Web And Multimedia Software. During my master in media, I was also a Mandarin freelance writer with several published articles on a variety of Taiwanese newspapers. After completion of my first master, I worked in the field of design for one year, and then to fully utilize my knowledge in design and copywriting, I switched to marketing for two years.</p>
+    <p>I have broad interests across different areas. After the two-year marketing working experience in technology industry, I decided to jump into the world of web development. </p>
     </div>
   </div>
+</section>  
 
 
 
 
-  <div class = "container2">
-    <h2 style = "color:#fff" class="conversation">Conversation Time</h2>
-    <form action="" method="put">
-    <label for="Name"> Name: </label> 
-    <input id="Name" name="Name" required>
-    <label for="email"> email: </label>
-    <input id="email" name="email" type="email" required>
-    <br>
-    <label for="message"> Message: </label>
-    <input id="Message" name="Message" size = "100" placeholder="What do you want to say?" required>
-    <button> Submit </button>
+
+<section class="gallery" id="gallery">
+
+<div class="section-heading">
+  <h1>Gallery</h1>
+  <h6>2010 - 2015</h6>
+</div>
+  <div class="gallery-img">
+    <img  src = "./resources/image/yearcard big.jpg" class="highlight" alt="">
+    <img  src = "./resources/image/04 big.jpg" class="active" alt="">
+    <img  src = "./resources/image/notebook+card big.jpg" alt="">
+    <img  src = "./resources/image/card big.jpg" alt="">
   </div>
+  
+<div style="text-align:center;">
+  <p></p>
+  <p></p>
+  <a href="http://b9934002.wixsite.com/cherylchensinrou"><button class = "bold" id = "second" > More Artwork and Writing Samples</button></a>
+  <p></p>
+</div>
+
+</section>
+
+
+
+<section class="experience" id="experience">
+  <div class="container">
+    <div class="section-heading">
+      <h1>Work Experience</h1>
+      <h6>Past and current positions</h6>
+    </div>
+    <div class="timeline">
+      <ul>
+        <li class="date" >
+        <h2>2019/08-2019/12</h2>
+        <h2 data-aos="fade-left" data-aos-delay="300"> Charleston Southern University</h2>
+        <p data-aos="fade-left" data-aos-delay="600">Computer Science Teaching Assistant</p>
+        </li>
+        <li class="date" >
+        <h2>2018/08-2019/07</h2>
+        <h2 data-aos="fade-left" data-aos-delay="300">Grundfos</h2>
+        <p data-aos="fade-left" data-aos-delay="600">Marketing Specialist</p>
+        </li>
+        <li class="date" >
+        <h2>2016/08-2018/3</h2>
+        <h2 data-aos="fade-left" data-aos-delay="300">ASRock</h2>
+        <p data-aos="fade-left" data-aos-delay="600">Marketing Specialist</p>
+        </li>
+        <li class="date">
+        <h2>2016/01-2016/07</h2>
+        <h2 data-aos="fade-left" data-aos-delay="300">Microjet Technology</h2>
+        <p data-aos="fade-left" data-aos-delay="600">GUI Designer</p>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="contact" id="contact">
+  <div class="container">
+  <div class = "section-heading">
+  <h1>Contact Me</h1>
+  </div>
+  <form action="">
+  <label for = "name">Name:</label>
+  <input type="text" id="name" name="name" placeholder="Enter your name." required>
+  <label for = "email">Email:</label>
+  <input type="text" id="email" name="email" placeholder="Enter your email." required>
+  <label for = "message">Message:</label>
+  <textarea id="message" name="message" cols="10" rows="10" required></textarea>
+  <input type="submit" value="Submit">
+  </form>
+  </div>
+</section>
+
+<footer class="copyright">
+  <div class="up" id="up">
+    <i class="fas fa-chevron-up"></i>
+    <p>&copy; 2019 Cheryl Chen</p>
+  </div>
+</footer>
+
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 <script src = "./resources/jquery-3.4.1.min.js"></script>
 <script src = "./resources/js/index.js"></script>
 </body>
-
 </html>
