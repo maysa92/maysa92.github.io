@@ -474,10 +474,12 @@ input[type="submit"]:hover{
         height: 24px;
         text-align: center;
         font-size: 15px;
+        font-family: 'calibri';
     }
     .landing-text h2{
         margin-top: 12px;
         font-size: 10rem;
+        font-family: 'calibri';
     }
     .landing-text h6{
         font-size: 1.7rem;
