@@ -108,6 +108,7 @@ li{
     height: 27px;
     text-align: center;
     font-size: 21px;
+    font-family: 'calibri';
 }
 
 .bar.half{
@@ -150,7 +151,8 @@ li{
     color:#00AAAA;
     padding: 0rem;
     text-align: center;
-    user-select: none;    
+    user-select: none;  
+    font-family: 'calibri';  
 }
 
 .landing-text h6{
