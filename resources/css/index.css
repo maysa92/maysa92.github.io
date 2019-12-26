@@ -11,7 +11,7 @@ html{
 body{
     width: 100%;
     height: 100%;
-    font-family: 'calibri';
+    font-family: 'Calibri';
     font-weight: 400;
     text-transform: capitalize;
     align-items: center;
@@ -108,7 +108,7 @@ li{
     height: 27px;
     text-align: center;
     font-size: 21px;
-    font-family: 'calibri';
+    font-family: 'The Historia Demo', sans-serif;
 }
 
 .bar.half{
@@ -152,7 +152,7 @@ li{
     padding: 0rem;
     text-align: center;
     user-select: none;  
-    font-family: 'calibri';  
+    font-family: 'The Historia Demo', sans-serif;  
 }
 
 .landing-text h6{
@@ -474,12 +474,12 @@ input[type="submit"]:hover{
         height: 24px;
         text-align: center;
         font-size: 15px;
-        font-family: 'calibri';
+        
     }
     .landing-text h2{
         margin-top: 12px;
         font-size: 10rem;
-        font-family: 'calibri';
+        
     }
     .landing-text h6{
         font-size: 1.7rem;
