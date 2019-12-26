@@ -542,7 +542,7 @@ input[type="submit"]:hover{
     }
     .timeline ul{
         margin: 0 0 0 auto;
-
+        width: 92%;
     }
     
     .bar{
