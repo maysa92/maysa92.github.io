@@ -141,13 +141,12 @@ li{
     left: 50%;
     width: 90%;
     transform: translate(-50%, -50%);
-    
     z-index: 1;
     line-height: 150px;
 }
 
 .landing-text h2{
-    font-size: 14rem;
+    font-size: 13.5rem;
     color:#00AAAA;
     padding: 0rem;
     text-align: center;
@@ -465,8 +464,12 @@ input[type="submit"]:hover{
 
 
 @media screen and (max-width: 768px){
+    .bar.half{
+        width: 15%;
+        animation: menupulse 1.4s infinite;
+    }
     .landing-text h2{
-        font-size: 12rem;
+        font-size: 11rem;
     }
     .landing-text h6{
         font-size: 1.7rem;
