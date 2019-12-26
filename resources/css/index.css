@@ -105,7 +105,7 @@ li{
 
 .bar.half{
     width: 15%;
-    animation: pulse 2s infinite;
+    animation: pulse 1.4s infinite;
 }
 
 .bar.start{
@@ -470,10 +470,13 @@ input[type="submit"]:hover{
         font-size: 3rem;
     }
     .about-details .nav-list{
-        flex-direction: initial;
+        flex-direction: column;
+        display: flex;
+        
     }
     .about-details li{
         margin: 0 2rem;
+        
     }
     .timeline ul{
         margin: 0 0 0 auto;
@@ -490,6 +493,12 @@ input[type="submit"]:hover{
         
         font-size:12px;
     }
+    .profile-img{
+        margin: 10 10rem 7rem 0;
+        display: flex;
+        
+    }
+    
 
 }
 
@@ -510,10 +519,13 @@ input[type="submit"]:hover{
         font-size: 3.5rem;
     }
     .about .container{
-        flex-direction: colun;
+        flex-direction: column;
     }
     .profile-img{
         margin: 0 0 7rem 0;
+        flex: 1;
+        
+        
     }
     .gallery-img{
         flex-direction: column;
