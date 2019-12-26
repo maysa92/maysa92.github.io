@@ -496,6 +496,7 @@ input[type="submit"]:hover{
     .profile-img{
         margin: 0 0 7rem 0;
         flex: 1;
+        max-height:100px;
         
     }
     .about .container{
