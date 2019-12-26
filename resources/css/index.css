@@ -464,10 +464,10 @@ input[type="submit"]:hover{
         font-size: 4.5rem;
     }
     .about-heading{
-        font-size: 8rem;
+        font-size: 7rem;
     }
     .section-heading{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .about-details .nav-list{
         flex-direction: column;
