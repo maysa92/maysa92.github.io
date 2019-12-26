@@ -469,7 +469,7 @@ input[type="submit"]:hover{
 
 @media screen and (max-width: 768px){
     .bar.half{
-        width: 30%;
+        width: 26%;
         animation: menupulse 1.4s infinite;
     }
     .bar.half.start{
