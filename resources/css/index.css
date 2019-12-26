@@ -497,12 +497,12 @@ input[type="submit"]:hover{
         margin: 0 0 7rem 0;
         flex: 1;
         max-height:100%;
-        width: auto;
+        width: 100%;
         
     }
     .about .container{
         flex-direction: column; 
-        display: flex;
+        
     }
 
 }
