@@ -138,7 +138,7 @@ li{
 
 .landing-text{
     position: absolute;
-    top: 49%;
+    top: 52%;
     left: 50%;
     width: 90%;
     transform: translate(-50%, -50%);
@@ -156,12 +156,11 @@ li{
 }
 
 .landing-text h6{
-    margin-top: -30px;
+    margin-top: -1px;
     text-align: center;
     font-size: 2rem;
     font-weight: 400;
     color: #6d8799;
-    
     opacity: 0.5;
 }
 .landing-text i {
@@ -478,6 +477,16 @@ input[type="submit"]:hover{
         font-size: 16px;
         
     }
+    .landing-text{
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        width: 90%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        line-height: 130px;
+    }
+
     .landing-text h2{
         margin-top: 30px;
         font-size: 9rem;
@@ -487,6 +496,7 @@ input[type="submit"]:hover{
         font-size: 1.7rem;
         text-align: center;
         margin-right: 0;
+        line-height: 36px;
     }
     .nav-list{
         flex-direction: column;
@@ -536,7 +546,7 @@ input[type="submit"]:hover{
         flex-direction: column; 
         overflow: hidden;
         margin: 2rem;
-        padding-bottom: 100%;
+        padding-bottom: 70%;
     }
 
 }
