@@ -498,8 +498,6 @@ input[type="submit"]:hover{
         flex: 1;
         max-height:100%;
         width: auto;
-        height: auto;
-        max-width: 100%;
         
     }
     .about .container{
