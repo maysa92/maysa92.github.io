@@ -469,11 +469,12 @@ input[type="submit"]:hover{
         animation: menupulse 1.4s infinite;
     }
     .bar.half.start{
-        height: 27px;
+        height: 24px;
         text-align: center;
         font-size: 15px;
     }
     .landing-text h2{
+        margin-top: 12px;
         font-size: 10rem;
     }
     .landing-text h6{
