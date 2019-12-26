@@ -143,11 +143,11 @@ li{
     width: 90%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    line-height: 150px;
+    line-height: 155px;
 }
 
 .landing-text h2{
-    font-size: 13.5rem;
+    font-size: 13rem;
     color:#00AAAA;
     padding: 0rem;
     text-align: center;
@@ -162,6 +162,7 @@ li{
     font-weight: 400;
     color: #6d8799;
     opacity: 0.5;
+    line-height: 50px;
 }
 .landing-text i {
     border: solid #00AAAA;
@@ -169,7 +170,7 @@ li{
     display: inline-block;
     padding: 10px;
     transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
   }
 /*about*/
 .about .container{
