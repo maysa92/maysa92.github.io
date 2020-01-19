@@ -697,15 +697,6 @@ input[type="submit"]:hover{
         float: left;
     }
 
-    .container-website {
-        position: relative;
-        margin: 1px;
-        width: 360px;
-        height: 360px;
-        text-align: center;
-        float: left;
-        display: block;
-    }
     .download{
         background-color: rgb(146, 146, 146);
         color: white;
