@@ -201,6 +201,7 @@ li{
     font-weight: 400;
     color: rgb(103, 105, 105);
     font-family: 'The Historia Demo', sans-serif;
+    margin-top: 20px;
 }
 
 .about p{
@@ -347,7 +348,17 @@ li{
     padding-right: 20px;
     float: center;
 }
-
+.download{
+    background-color: rgb(146, 146, 146);
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 7rem;
+    margin-top: 10px;;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
 #website{
     margin-top: 30px;
 }
