@@ -612,22 +612,21 @@ input[type="submit"]:hover{
     }
     .container-img {
         position: relative;
-        margin: 1px;
-        width: 100%;
-        min-height: 98%;
-        max-height: 100%;
+        margin: 0px;
+        width: 380px;
+        height: 300px;
         text-align: center;
-        float: center;
+        float: left;
     }
     /* Bottom right text */
     .text-block {
         position: absolute;
         bottom: 0px;
-        right: 10%;
-        left: 10%;
+        right: 20%;
+        left: 20%;
         background-color: rgb(114, 114, 114);
         color: white;
-        width: 80%;
+        width: 60%;
         padding-left: 20px;
         padding-right: 20px;
         float: center;
@@ -637,6 +636,7 @@ input[type="submit"]:hover{
     .gallery-img{
         width: 95%;
         display: flex;
+        flex-direction: column;
         margin-left: auto;
         margin-right: auto;
         align-items: center;
@@ -644,11 +644,8 @@ input[type="submit"]:hover{
     }
 
     .gallery-img img{
-        justify-content: center;
-        align-items: center;
         width: auto;
         max-width: 100%;
-        height: 180px;
         float: center;
         border: 1px solid #ddd;
         border-radius: 5px;
@@ -656,16 +653,17 @@ input[type="submit"]:hover{
         margin-left: auto;
         margin-right: auto;
         display: block;
+        position:absolute;
+        bottom:0px;
+        right:0px;
+        left: 0px;
     }
 }
 
 @media screen and (max-width: 700px){
     .gallery-img img{
-        justify-content: center;
-        align-items: center;
         width: auto;
         max-width: 100%;
-        height: 100%;
         float: center;
         border: 1px solid #ddd;
         border-radius: 5px;
@@ -673,12 +671,16 @@ input[type="submit"]:hover{
         margin-left: auto;
         margin-right: auto;
         display: block;
+        position:absolute;
+        bottom:0px;
+        right:0px;
+        left: 0px;
     }
     .container-img {
         position: relative;
-        margin: 1px;
-        width: 250px;
-        height: 250px;
+        margin: 0px;
+        width: 350px;
+        height: 300px;
         text-align: center;
         float: left;
     }
