@@ -32,6 +32,7 @@ img{
     width: 100%;
 }
 
+
 /*header*/
 header{
     width: 100%;
@@ -61,27 +62,22 @@ header{
     justify-content: center;
     align-items: center;
 }
-
 li{
     margin: 0.2rem;
 }
-
 .nav-link{
     font-family: 'The Historia Demo', sans-serif;
     font-size: 4rem;
     padding: 1rem;
 }
-
 .nav-link:hover{
     background: linearGradient(to top, #f5ebae, #8162aa);
     -webkit-text-fill-color:transparent;
 }
-
 .top-nav.open{
     top: 0;
     border-radius: initial;
 }
-
 .menu-toogler{
     position: absolute;
     top: 5rem;
@@ -95,7 +91,6 @@ li{
     z-index: 1500;
     transition: transform 650ms ease-out;
 }
-
 .bar{
     background: linear-gradient(to right, rgb(69, 154, 175), rgb(240, 255, 184));
     width: 100%;
@@ -103,39 +98,32 @@ li{
     border-radius: .5rem;
     color: white;
 }
-
 .bar.half.start{
     height: 27px;
     text-align: center;
     font-size: 21px;
     font-family: 'The Historia Demo', sans-serif;
 }
-
 .bar.half{
     width: 18%;
     animation: menupulse 1.3s infinite;
 }
-
 .bar.half.start{
     transform-origin: right;
     transition: transform 650ms cubic-bezier(0.54, -0.81, 0.5, 0.5)
 }
-
 .bar.half.end{
     height: 27px;
     align-self: flex-end;
     transform-origin: left;
     transition: transform 650ms cubic-bezier(0.54, -0.81, 0.5, 0.5)
-
 }
 .open .bar.start{
     transform: rotate(-90deg) translateX( .8rem);
 }
-
 .open .bar.end{
     transform: rotate(-90deg) translateX(- .8rem);
 }
-
 .landing-text{
     position: absolute;
     top: 52%;
@@ -145,7 +133,6 @@ li{
     z-index: 1;
     line-height: 155px;
 }
-
 .landing-text h2{
     font-size: 13rem;
     color:#00AAAA;
@@ -154,7 +141,6 @@ li{
     user-select: none;  
     font-family: 'The Historia Demo', sans-serif;  
 }
-
 .landing-text h6{
     margin-top: -1px;
     text-align: center;
@@ -172,6 +158,8 @@ li{
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
   }
+
+
 /*about*/
 .about .container{
     margin-top: 28px;
@@ -194,6 +182,7 @@ li{
     opacity: .5;
     color: #00AAAA;
 }
+
 .section-heading h1{
     font-size: 8rem;
     opacity: .5;
@@ -206,14 +195,17 @@ li{
     font-weight: 400;
     color: rgb(103, 105, 105)
 }
+
 .section-heading h6{
     font-size: 2rem;
     font-weight: 400;
     color: rgb(103, 105, 105)
 }
+
 .about p{
     font-size: 16px;
 }
+
 .profile-img{
     flex: 1;
     margin-right: 5rem;
@@ -233,7 +225,6 @@ li{
 .section-heading{
     text-align: center;
     margin-bottom: 5rem;
-
 }
 
 .section-heading h1{
@@ -269,6 +260,7 @@ li{
 
 .gallery-img{
     display: flex;
+    flex-direction: row;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -287,6 +279,7 @@ li{
     padding: 20px;
     margin: 5px;
 }
+
 #second{
     background: rgb(143, 189, 189);
     opacity: 5;
@@ -295,7 +288,6 @@ li{
     text-align: center;
     flex-grow: 1;
 }
-
 
 .bold{
     width:30%;
@@ -307,7 +299,6 @@ li{
     margin-top: 50px;
 }
 
-
 .profile-img{
     width: 100%;
     display: flex;
@@ -317,12 +308,13 @@ li{
     opacity: 0.9;
     flex: 1;
 }
+
 /* Container holding the image and the text */
 .container-img {
     position: relative;
   }
   
-  /* Bottom right text */
+/* Bottom right text */
   .text-block {
     position: absolute;
     bottom: 10px;
@@ -333,16 +325,14 @@ li{
     padding-right: 20px;
   }
 
+
 /*timeline*/
 .timeline{
     background-image: url("../image/bg2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  
 }
-
-
 .timeline ul{
     border-left: 3px solid rgb(81, 144, 168);
     border-radius: .8rem;
@@ -369,13 +359,11 @@ li{
     position: relative;
     padding-bottom: 1rem;
 }
-
 .timeline .date:last-of-type{
     padding-bottom: 0;
     margin-bottom: 0;
     border: none;
 }
-
 .timeline .date::before,
 .timeline .date::after{
     position: absolute;
@@ -383,8 +371,6 @@ li{
     top: 50%;
     transform: translateY(-20%);
 }
-
-
 .timeline .date::after{
     content:  '';
     border-radius: 100%;
@@ -397,6 +383,8 @@ li{
 .timeline p{
     color: rgb(93, 102, 117);
 }
+
+
 /*Contact*/
 .contact{
     background-color: #dddddd;
@@ -407,7 +395,6 @@ form{
 }
 form label{
     font-size: 1.5rem;
-
 }
 
 input, select, textarea{
@@ -424,11 +411,12 @@ input[type="submit"]{
     padding: 1rem 2rem;
     border-radius: .8rem;
     cursor: pointer;
-    
 }
+
 input[type="submit"]:hover{
     color: #00AAAA;
 }
+
 
 /*footer*/
 .copyright{
@@ -445,6 +433,8 @@ input[type="submit"]:hover{
 .up{
     animation: pulse 2s infinite;
 }
+
+
 /*animation*/
 @keyframes pulse{
 0%{
@@ -468,6 +458,9 @@ input[type="submit"]:hover{
         box-shadow: 0 0 0 0 rgba(217,255,173,0);
     }
     }
+
+
+
 /*responsive*/
 @media screen and (max-width: 1024px){
     .landing-text h6{
@@ -476,8 +469,6 @@ input[type="submit"]:hover{
         margin-right: 0;
     }
 }
-
-
 
 @media screen and (max-width: 768px){
     .bar.half{
@@ -561,50 +552,28 @@ input[type="submit"]:hover{
         margin: 2rem;
         padding-bottom: 70%;
     }
-
-}
-
-/*
-@media screen and (max-width: 600px){
-    .menu-toggler{
-        top: 2rem;
-        right: 2rem;
+    .gallery-img img{
+        width: auto;
+	    height: 150px;
+	    max-width: 100%;
+        max-height: 100%;
+        display: block;
+        border: 1px solid #ddd;
+        float: left;
+        position: relative;
+        border-radius: 5px;
+        padding: 15px;
+        
     }
-    .landing-text h2{
-        font-size:8rem;
-    }
-    .landing-text h6{
-        font-size: 1.4rem;
+    .text-block{
+        position: absolute;
+        bottom: 5px;
+        right: 2px;
+        background-color: rgb(114, 114, 114);
+        color: white;
+        padding-left: 5px;
+        padding-right: 5px;
         text-align: center;
-        margin-right: 0;
+        font-size: 2px;
     }
-    .nav-link{
-        font-size: 3.5rem;
-    }
-    .about .container{
-        flex-direction: column;
-    }
-    .profile-img{
-        margin: 0 0 7rem 0;
-        flex: 1;
-        
-        
-    }
-    .gallery-img{
-        flex-direction: column;
-        margin: 0 0 2rem 0;
-        order: 1;
-    }
-    .timelin p{
-        font-size: 1.5rem;
-    }
-    form{
-        width: 100%;
-    }
-    .bar{
-        
-        font-size:8.7px;
-    }
-    
 }
-*/
