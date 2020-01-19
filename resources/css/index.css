@@ -673,7 +673,7 @@ input[type="submit"]:hover{
 
 @media screen and (max-width: 700px){
     .gallery-img img{
-        
+        width: 100%;
         height: auto;
         max-height: 100%;
         max-width: 100%;
@@ -697,16 +697,7 @@ input[type="submit"]:hover{
         text-align: center;
         float: left;
     }
-
-    .container-website {
-        position: relative;
-        margin: 1px;
-        width: 360px;
-        height: 360px;
-        text-align: center;
-        float: left;
-        display: block;
-    }
+    
     .download{
         background-color: rgb(146, 146, 146);
         color: white;
@@ -718,4 +709,5 @@ input[type="submit"]:hover{
         padding-right: 20px;
         margin: 0 auto;
     }
+    
 }
