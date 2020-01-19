@@ -259,8 +259,8 @@ li{
 /*gallery*/
 
 .gallery-img{
+    width: 95%;
     display: flex;
-    flex-direction: row;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -271,13 +271,15 @@ li{
     justify-content: center;
     align-items: center;
     width: auto;
-    height: 300px;
-    flex-direction: column;
-    display: block;
+    max-width: 100%;
+    height: 350px;
+    float: center;
     border: 1px solid #ddd;
     border-radius: 5px;
-    padding: 20px;
-    margin: 5px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 #second{
@@ -312,17 +314,26 @@ li{
 /* Container holding the image and the text */
 .container-img {
     position: relative;
+    margin: 1px;
+    width: 100%;
+    min-height: 98%;
+    max-height: 100%;
+    text-align: center;
+    float: center;
   }
   
 /* Bottom right text */
   .text-block {
     position: absolute;
-    bottom: 10px;
-    right: 0px;
+    bottom: 0px;
+    right: 25%;
+    left: 25%;
     background-color: rgb(114, 114, 114);
     color: white;
+    width: 50%;
     padding-left: 20px;
     padding-right: 20px;
+    float: center;
   }
 
 
@@ -468,6 +479,53 @@ input[type="submit"]:hover{
         text-align: center;
         margin-right: 0;
     }
+    .container-img {
+        position: relative;
+        margin: 1px;
+        width: 100%;
+        min-height: 98%;
+        max-height: 100%;
+        text-align: center;
+        float: center;
+    }
+      
+    /* Bottom right text */
+    .text-block {
+        position: absolute;
+        bottom: 0px;
+        right: 20%;
+        left: 20%;
+        background-color: rgb(114, 114, 114);
+        color: white;
+        width: 60%;
+        padding-left: 20px;
+        padding-right: 20px;
+        float: center;
+    }
+
+    .gallery-img{
+        width: 95%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gallery-img img{
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        max-width: 100%;
+        height: 270px;
+        float: center;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -552,29 +610,51 @@ input[type="submit"]:hover{
         margin: 2rem;
         padding-bottom: 70%;
     }
-    .gallery-img img{
-        width: auto;
-        flex-direction: row;
-	    height: 160px;
-	    max-width: 100%;
-        max-height: 100%;
-        display: flex;
-        border: 1px solid #ddd;
-        float: left;
+    .container-img {
         position: relative;
-        border-radius: 5px;
-        padding: 15px;
-        
+        margin: 1px;
+        width: 100%;
+        min-height: 98%;
+        max-height: 100%;
+        text-align: center;
+        float: center;
     }
-    .text-block{
+    /* Bottom right text */
+    .text-block {
         position: absolute;
-        bottom: 5px;
-        right: 2px;
+        bottom: 0px;
+        right: 10%;
+        left: 10%;
         background-color: rgb(114, 114, 114);
         color: white;
-        padding-left: 5px;
-        padding-right: 5px;
-        text-align: center;
+        width: 80%;
+        padding-left: 20px;
+        padding-right: 20px;
+        float: center;
         font-size: 12px;
+    }
+
+    .gallery-img{
+        width: 95%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gallery-img img{
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        max-width: 100%;
+        height: 180px;
+        float: center;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     }
 }
