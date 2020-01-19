@@ -199,7 +199,8 @@ li{
 .section-heading h6{
     font-size: 2rem;
     font-weight: 400;
-    color: rgb(103, 105, 105)
+    color: rgb(103, 105, 105);
+    font-family: 'The Historia Demo', sans-serif;
 }
 
 .about p{
@@ -231,6 +232,7 @@ li{
     text-transform: uppercase;
     position: relative;
     margin-bottom: 0rem;
+    font-family: 'The Historia Demo', sans-serif;
 }
 
 .section-heading h1::before,
@@ -677,5 +679,13 @@ input[type="submit"]:hover{
         float: left;
     }
 
-    
+    .container-website {
+        position: relative;
+        margin: 1px;
+        width: 350px;
+        height: 350px;
+        text-align: center;
+        float: left;
+        display: block;
+    }
 }
