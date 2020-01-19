@@ -677,13 +677,5 @@ input[type="submit"]:hover{
         float: left;
     }
 
-    .container-website {
-        position: relative;
-        margin: 1px;
-        width: 320px;
-        height: 320px;
-        text-align: center;
-        float: left;
-        display: block;
-    }
+    
 }
