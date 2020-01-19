@@ -554,10 +554,11 @@ input[type="submit"]:hover{
     }
     .gallery-img img{
         width: auto;
+        flex-direction: row;
 	    height: 160px;
 	    max-width: 100%;
         max-height: 100%;
-        display: block;
+        display: flex;
         border: 1px solid #ddd;
         float: left;
         position: relative;
@@ -574,6 +575,6 @@ input[type="submit"]:hover{
         padding-left: 5px;
         padding-right: 5px;
         text-align: center;
-        font-size: 8px;
+        font-size: 12px;
     }
 }
