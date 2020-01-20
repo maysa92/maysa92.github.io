@@ -177,6 +177,7 @@ li{
     stroke-dashoffset: 0;
     stroke-dasharray: 2000;
     animation: pa1 7s ease-in-out;
+    animation-delay: 1.5s;
 }
 
 .pa3, .pa0, .pa-1{
@@ -817,7 +818,7 @@ input[type="submit"]:hover{
     }
     .landing-text{
         position: absolute;
-        top: 32%;
+        top: 35%;
         left: 50%;
         width: 90%;
         transform: translate(-50%, -50%);
