@@ -134,7 +134,7 @@ li{
     line-height: 155px;
 }
 .landing-text h2{
-    font-size: 13rem;
+    font-size: 14rem;
     color:#00AAAA;
     padding: 0rem;
     text-align: center;
@@ -159,7 +159,31 @@ li{
     -webkit-transform: rotate(45deg);
   }
 
-
+.highlight:hover{
+    filter: grayscale(30%);
+    filter: brightness(1.1);
+}
+#Capa_1{
+    width: 200px;
+    display: block;
+    margin: 25% 75%;
+}
+.pa1{
+    fill-opacity: 0;
+    stroke: #00AAAA;
+    stroke-width: 5px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 2000;
+    animation: pa1 3s ease-in-out;
+}
+@keyframes pa1{
+    0%{
+        stroke-dashoffset: 2000;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
 /*about*/
 .about .container{
     margin-top: 28px;
@@ -528,6 +552,11 @@ input[type="submit"]:hover{
         padding-right: 20px;
         float: center;
     }
+    #Capa_1{
+        width: 200px;
+        display: block;
+        margin: 25% 75%;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -561,6 +590,11 @@ input[type="submit"]:hover{
         text-align: center;
         margin-right: 0;
         line-height: 34px;
+    }
+    #Capa_1{
+        width: 120px;
+        display: block;
+        margin: 40% 75%;
     }
     .nav-list{
         flex-direction: column;
@@ -709,5 +743,9 @@ input[type="submit"]:hover{
         padding-right: 20px;
         margin: 0 auto;
     }
-    
+    #Capa_1{
+        width: 90px;
+        display: block;
+        margin: 50% 79%;
+    }
 }
