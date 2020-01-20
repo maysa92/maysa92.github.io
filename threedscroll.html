@@ -12,21 +12,138 @@ content = "width=device-width, initial-scale = 1.0">
 rel = "stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="./resources/jquery.tiltedpage-scroll.js"></script>
+<link rel="stylesheet" href="./resources/tiltedpage-scroll.css">
 </head>
 
 <body>
+    <div class="main">
 <section class="header">
     <div class="content-box">
         <div class="menu">
-            <img src="./resources/image/3dscroll/scholarship.png">
+            <img id = "logo" src="./resources/image/3dscroll/scholarship.png">
         </div>
         <div class = "banner-text">
             <h2>WE DO TUTORING</h2>
-            <p>Private, 1–on–1 lessons with the expert instructor of your choice. <br>You decide when to meet, how much to pay, and who you want to work with.</p>
-        <a href="#">Learn More</a>
+            <p>Private lessons with the expert instructor of your choice. <br>You decide when to meet, how much to pay, and who you want to work with.</p>
+        <a href="#service">Learn More</a>
         </div>
     </div>
 </section>
+
+
+<section class="service" id="service">
+    <div class="content-box">
+        <div class="container">
+            <h1>Service</h1>
+            <div class="row service">
+            <div class="col-md-4 text-center">
+                <div class="icon">
+                    <i class="fa fa-renren"></i>
+                </div>
+                <h3>In-Home <span>Tutoring</span></h3>
+                <p>One-on-one, in-home tutoring for students of all subjects and grade levels.</p>
+                </div>
+            <div class="col-md-4 text-center">
+                <div class="icon">
+                    <i class="fa fa-video-camera"></i>
+                </div>
+                <h3>Online <span>Lesson</span></h3>
+                <p>Schedule lessons at your free time by appointment.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="icon">
+                    <i class="fa fa-meetup"></i>
+                </div>
+                <h3>Study <span>Group</span></h3>
+                <p>Personalized assistance designed to move students in group towards their goals. </p>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="feature">
+    <div class="content-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Features</h2>
+                        <ul>
+                        <li>Certified Teachers</li>
+                        <li>Affordable Programs</li>
+                        <li>Customized Tutoring</li>
+                        </ul>
+                </div>
+                    <div class="col-md-6">
+                    <img src="./resources/image/3dscroll/study.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="footer">
+    <div class="content-box">
+        <div class="container">
+            <h1>Contact</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="form-control" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6 contact-info">
+                    <div class="follow">
+                        <i class="fa fa-map-marker"></i><span>XYZ Rd, Charleston, SC</span>
+                    </div>
+                    <div class="follow">
+                        <i class="fa fa-phone"></i><span>+1 01234567</span>
+                    </div>
+                    <div class="follow">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-youtube-play"></i>
+                    </div>
+                </div>
+            </div>
+                <hr>
+                <p class="copyright">&copy; 2020 Cheryl Chen</p>
+                <div class="copyright"><h8>Icons made by <a href="https://www.flaticon.com/authors/iconpond" title="Icon Pond">Icon Pond</a></div>
+        </div>
+    </div>
+</section>
+
+</div>
+<script>
+$(".main").tiltedpage_scroll({
+    sectionContainer: "> section",     // In case you don't want to use <section> tag, you can define your won CSS selector here
+    angle: 50,                         // You can define the angle of the tilted section here. Change this to false if you want to disable the tilted effect. The default value is 50 degrees.
+    opacity: true,                     // You can toggle the opacity effect with this option. The default value is true
+    scale: true,                       // You can toggle the scaling effect here as well. The default value is true.
+    outAnimation: true                 // In case you do not want the out animation, you can toggle this to false. The defaul value is true.
+  });
+</script>
 </body>
 
 </html>
