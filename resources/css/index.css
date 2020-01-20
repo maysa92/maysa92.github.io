@@ -67,8 +67,9 @@ li{
 }
 .nav-link{
     font-family: 'The Historia Demo', sans-serif;
-    font-size: 4rem;
+    font-size: 3.5rem;
     padding: 1rem;
+    color: white;
 }
 .nav-link:hover{
     background: linearGradient(to top, #f5ebae, #8162aa);
@@ -607,7 +608,7 @@ input[type="submit"]:hover{
         margin: 2rem 0;
     }
     .nav-link{
-        font-size: 4.5rem;
+        font-size: 2.5rem;
     }
     .about-heading h1{
         font-size: 6rem;
@@ -748,7 +749,7 @@ input[type="submit"]:hover{
         margin: 0 auto;
     }
     #Capa_1{
-        width: 80px;
+        width: 70px;
         display: block;
         margin: 50% 79%;
     }
