@@ -340,13 +340,17 @@ li{
 }
 
 .profile-img{
-    width: 100%;
+    width: 80%;
     display: flex;
     margin-right: 30px;
     margin-top: 20px;
     margin-left: 10px;
     opacity: 0.9;
     flex: 1;
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 7px;
 }
 
 /* Container holding the image and the text */
