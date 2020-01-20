@@ -855,3 +855,16 @@ input[type="submit"]:hover{
     }
     
 }
+@media screen and (max-width: 350px){
+    #Capa_1{
+        width: 120px;
+        display: block;
+        margin: 80% auto;
+        padding-top: 20px;
+    }
+    .landing-text h2{
+        margin-top: 30px;
+        font-size: 6.8rem;  
+        line-height: 80px;
+    }
+}
