@@ -553,7 +553,7 @@ input[type="submit"]:hover{
         float: center;
     }
     #Capa_1{
-        width: 200px;
+        width: 180px;
         display: block;
         margin: 25% 75%;
     }
@@ -582,7 +582,7 @@ input[type="submit"]:hover{
 
     .landing-text h2{
         margin-top: 30px;
-        font-size: 9rem;
+        font-size: 8rem;
         
     }
     .landing-text h6{
@@ -750,7 +750,7 @@ input[type="submit"]:hover{
     }
     .landing-text h2{
         margin-top: 30px;
-        font-size: 8rem;
+        font-size: 7.5rem;
         
     }
 }
