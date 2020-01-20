@@ -36,7 +36,7 @@ img{
 /*header*/
 header{
     width: 100%;
-    height: 90vh;
+    height: 110vh;
 }
 #background{
     background-image: url("../image/bg.jpg");
@@ -135,7 +135,7 @@ li{
     line-height: 155px;
 }
 .landing-text h2{
-    font-size: 14rem;
+    font-size: 13.7rem;
     color:#00AAAA;
     padding: 0rem;
     text-align: center;
@@ -165,22 +165,18 @@ li{
     filter: brightness(1.1);
 }
 #Capa_1{
-    width: 170px;
+    width: 160px;
     display: block;
-    margin: 30% 75%;
+    margin: 34% auto;
 }
-#Capa_2{
-    width: 120px;
-    display: block;
-    margin: 10% 65%;
-}
-.pa4, .pa2, .pa1{
+
+.pa4, .pa2, .pa1, .pa5, .pa6{
     fill-opacity: 0;
     stroke: #00AAAA;
     stroke-width: 5px;
     stroke-dashoffset: 0;
     stroke-dasharray: 2000;
-    animation: pa1 6s ease-in-out;
+    animation: pa1 7s ease-in-out;
 }
 
 .pa3, .pa0, .pa-1{
@@ -372,7 +368,7 @@ li{
 /* Bottom right text */
 .text-block {
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     right: 10%;
     left: 10%;
     background-color: rgb(114, 114, 114);
@@ -382,6 +378,7 @@ li{
     padding-right: 20px;
     float: center;
 }
+
 .download{
     background-color: rgb(146, 146, 146);
     color: white;
@@ -542,9 +539,14 @@ input[type="submit"]:hover{
 
 
 /*responsive*/
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1050px){
     .landing-text h6{
         font-size: 1.7rem;
+        text-align: center;
+        margin-right: 0;
+    }
+    .landing-text h2{
+        font-size: 10.5rem;
         text-align: center;
         margin-right: 0;
     }
@@ -559,24 +561,24 @@ input[type="submit"]:hover{
     }
     .text-block {
         position: absolute;
-        bottom: 20px;
-        right: 10%;
-        left: 10%;
+        bottom: 0px;
+        right: 5%;
+        left: 5%;
         background-color: rgb(114, 114, 114);
         color: white;
-        width: 80%;
+        width: 90%;
         padding-left: 20px;
         padding-right: 20px;
         float: center;
     }
     #Capa_1{
-        width: 150px;
+        width: 155px;
         display: block;
-        margin: 25% 75%;
+        margin: 37% auto;
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 880px){
     .bar.half{
         width: 26%;
         animation: menupulse 1.4s infinite;
@@ -589,7 +591,7 @@ input[type="submit"]:hover{
     }
     .landing-text{
         position: absolute;
-        top: 51%;
+        top: 50%;
         left: 50%;
         width: 90%;
         transform: translate(-50%, -50%);
@@ -599,7 +601,7 @@ input[type="submit"]:hover{
 
     .landing-text h2{
         margin-top: 30px;
-        font-size: 8rem;
+        font-size: 9.6rem;
         
     }
     .landing-text h6{
@@ -609,9 +611,9 @@ input[type="submit"]:hover{
         line-height: 34px;
     }
     #Capa_1{
-        width: 100px;
+        width: 148px;
         display: block;
-        margin: 30% 75%;
+        margin: 43% auto;
     }
     .nav-list{
         flex-direction: column;
@@ -651,7 +653,9 @@ input[type="submit"]:hover{
         font-size:12px;
     }
     .profile-img{
-        margin: 0 0 7rem 0;
+        margin: 0 7rem 6rem auto;
+        text-align: center;
+        width: 80%;
         max-width:100%;
         max-height:100%;
         display: block;
@@ -673,16 +677,16 @@ input[type="submit"]:hover{
     /* Bottom right text */
     .text-block {
         position: absolute;
-        bottom: 10px;
-        right: 20%;
-        left: 20%;
+        bottom: 0px;
+        right: 0%;
+        left: 0%;
         background-color: rgb(114, 114, 114);
         color: white;
-        width: 60%;
+        width: 100%;
         padding-left: 20px;
         padding-right: 20px;
         float: center;
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .gallery-img{
@@ -715,14 +719,14 @@ input[type="submit"]:hover{
     .container-img {
         position: relative;
         margin: 5px;
-        width: 280px;
-        height: 280px;
+        width: 340px;
+        height: 340px;
         text-align: center;
         float: left;
     }
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 768px){
     .gallery-img img{
         width: 100%;
         height: auto;
@@ -743,8 +747,8 @@ input[type="submit"]:hover{
     .container-img {
         position: relative;
         margin: 5px;
-        width: 280px;
-        height: 280px;
+        width: 310px;
+        height: 310px;
         text-align: center;
         float: left;
     }
@@ -752,23 +756,82 @@ input[type="submit"]:hover{
     .download{
         background-color: rgb(146, 146, 146);
         color: white;
-        width: 80%;
+        width: 90%;
         text-align: center;
         margin-bottom: 7rem;
-        margin-top: 10px;;
+        margin-top: 15px;;
         padding-left: 20px;
         padding-right: 20px;
         margin: 0 auto;
     }
     
     #Capa_1{
-        width: 70px;
+        width: 110px;
         display: block;
-        margin: 50% 79%;
+        margin: 47% auto;
     }
     .landing-text h2{
         margin-top: 30px;
         font-size: 7.5rem;
         
+    }
+    
+}
+@media screen and (max-width: 720px){
+    .gallery-img img{
+        width: 100%;
+        height: auto;
+        max-height: 100%;
+        max-width: 100%;
+        float: center;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        position:absolute;
+        bottom:0px;
+        right:0px;
+        left: 0px;
+    }
+    .container-img {
+        position: relative;
+        margin: 5px;
+        width: 310px;
+        height: 310px;
+        text-align: center;
+        float: left;
+    }
+    
+    .download{
+        background-color: rgb(146, 146, 146);
+        color: white;
+        width: 90%;
+        text-align: center;
+        margin-bottom: 7rem;
+        margin-top: 15px;;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0 auto;
+    }
+    
+    #Capa_1{
+        width: 110px;
+        display: block;
+        margin: 80% auto;
+    }
+    .landing-text h2{
+        margin-top: 30px;
+        font-size: 7.5rem;
+        
+    }
+    .profile-img{
+        margin: 0 6rem 0 0 auto;
+        text-align: center;
+        max-width:100%;
+        max-height:100%;
+        display: block;
+        margin-bottom: 50px;
     }
 }
