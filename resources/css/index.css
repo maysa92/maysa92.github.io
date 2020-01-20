@@ -174,7 +174,7 @@ li{
     fill-opacity: 0;
     stroke: #00AAAA;
     stroke-width: 5px;
-    stroke-dashoffset: 0;
+    stroke-dashoffset: 2000;
     stroke-dasharray: 2000;
     animation: pa1 7s ease-in-out;
     animation-delay: 1.5s;
