@@ -178,6 +178,7 @@ li{
     stroke-dasharray: 2000;
     animation: pa1 7s ease-in-out;
     animation-delay: 1.5s;
+    animation-fill-mode: forwards;
 }
 
 .pa3, .pa0, .pa-1{
