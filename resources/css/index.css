@@ -124,6 +124,7 @@ li{
     transform: rotate(70deg) translateX( .8rem);
     transition: .5s;
     color: transparent;
+    z-index:-1;
 }
 
 .landing-text{
