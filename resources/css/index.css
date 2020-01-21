@@ -907,4 +907,14 @@ input[type="submit"]:hover{
     }
 }
 
+@media screen and (max-width: 600px){
+    #Capa_1{
+        width: 138px;
+        position: absolute;
+        top: 78%;
+        left: 30%;
+        right: 30%;
+        margin: auto;
+        padding-top: 10px;
+    }
 
