@@ -105,6 +105,7 @@ li{
     animation: menu 7.5s ease-in-out infinite; 
 }
 .bar.half.start{
+    z-index: 9999;
     position: fixed;
     top: 2%;
     margin-top: 8px;
