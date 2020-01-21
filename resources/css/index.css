@@ -122,7 +122,6 @@ li{
 
 .open .bar.start{
     transform: rotate(70deg) translateX( .8rem);
-    transition: .5s;
     color: transparent;
     z-index:-1;
 }
