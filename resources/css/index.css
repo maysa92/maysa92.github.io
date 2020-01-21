@@ -620,7 +620,7 @@ input[type="submit"]:hover{
     #Capa_1{
         width: 158px;
         position: absolute;
-        top: 52%;
+        top: 60%;
         display: block;
         margin: 5% auto;
     }
@@ -671,7 +671,7 @@ input[type="submit"]:hover{
     }
     #Capa_1{
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 30%;
         right: 30%;
         width: 150px;
@@ -841,7 +841,7 @@ input[type="submit"]:hover{
     }
     .landing-text h2{
         margin-top: 30px;
-        font-size: 7.5rem;
+        font-size: 7.6rem;
         
     }
     
@@ -882,7 +882,7 @@ input[type="submit"]:hover{
         text-align: center;
     }
     #Capa_1{
-        width: 138px;
+        width: 142px;
         position: absolute;
         top: 70%;
         left: 30%;
@@ -892,7 +892,7 @@ input[type="submit"]:hover{
     }
     .landing-text h2{
         margin-top: 30px;
-        font-size: 7rem;  
+        font-size: 7.2rem;  
         line-height: 100px;
     }
     .landing-text{
@@ -915,7 +915,7 @@ input[type="submit"]:hover{
 
 @media screen and (max-width: 580px){
     #Capa_1{
-        width: 138px;
+        width: 139px;
         position: absolute;
         top: 76%;
         left: 30%;
