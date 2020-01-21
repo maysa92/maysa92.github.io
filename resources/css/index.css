@@ -95,7 +95,7 @@ li{
 .bar{
     z-index: 999;
     position: fixed;
-    top: 46px;
+    top: 49px;
     background: linear-gradient(to right, rgb(37, 221, 221), rgb(220,220,220));
     width: 5%;
     height: 20px;
@@ -625,13 +625,13 @@ input[type="submit"]:hover{
         margin: 5% auto;
     }
     .bar.half.start{
-        width: 6%;
+        width: 8%;
         height: 25px;
         text-align: center;
         font-size: 16px;   
     }
     .bar{
-        width: 6%;
+        width: 8%;
         font-size:9px;
     }
 }
@@ -639,7 +639,7 @@ input[type="submit"]:hover{
 @media screen and (max-width: 880px){
     .bar{
         width: 8%;
-        font-size:9px;
+        font-size:10px;
     }
     .bar.half.start{
         width: 8%;
@@ -818,7 +818,7 @@ input[type="submit"]:hover{
     .bar.half.start{
         width: 10%;
         height: 25px;
-        font-size: 12px;
+        font-size: 14px;
         text-align: center;
     }
     .download{
@@ -877,8 +877,8 @@ input[type="submit"]:hover{
     }
     .bar.half.start{
         width: 12%;
-        height: 25px;
-        font-size: 12px;
+        height: 24px;
+        font-size: 13px;
         text-align: center;
     }
     #Capa_1{
