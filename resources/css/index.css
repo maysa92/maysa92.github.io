@@ -93,6 +93,7 @@ li{
     transition: transform 650ms ease-out;
 }
 .bar{
+    z-index: 9999;
     position: fixed;
     top: 7%;
     background: linear-gradient(to right, rgb(37, 221, 221), rgb(220,220,220));
