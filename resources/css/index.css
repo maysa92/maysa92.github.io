@@ -907,7 +907,7 @@ input[type="submit"]:hover{
     }
 }
 
-@media screen and (max-width: 599px){
+@media screen and (max-width: 580px){
     #Capa_1{
         width: 138px;
         position: absolute;
