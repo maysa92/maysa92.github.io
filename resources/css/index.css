@@ -856,7 +856,7 @@ input[type="submit"]:hover{
     #Capa_1{
         width: 138px;
         display: block;
-        margin: 60% auto;
+        margin: 70% auto;
         padding-top: 10px;
     }
     .landing-text h2{
@@ -866,7 +866,7 @@ input[type="submit"]:hover{
     }
     .landing-text{
         position: absolute;
-        top: 33%;
+        top: 36%;
         left: 50%;
         width: 90%;
         transform: translate(-50%, -50%);
