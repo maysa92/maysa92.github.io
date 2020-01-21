@@ -95,7 +95,7 @@ li{
 .bar{
     z-index: 999;
     position: fixed;
-    top: 7%;
+    top: 46px;
     background: linear-gradient(to right, rgb(37, 221, 221), rgb(220,220,220));
     width: 5%;
     height: 20px;
@@ -107,10 +107,10 @@ li{
 .bar.half.start{
     z-index: 9999;
     position: fixed;
-    top: 2%;
-    margin-top: 8px;
+    top: 20px;
+    margin-top: 5px;
     background: linear-gradient(to right, rgb(220, 220, 220), rgb(37,221,221));
-    height: 26px;
+    height: 25px;
     text-align: center;
     font-size: 15px;
     font-family: 'The Historia Demo', sans-serif;
@@ -626,7 +626,7 @@ input[type="submit"]:hover{
     }
     .bar.half.start{
         width: 6%;
-        height: 22px;
+        height: 25px;
         text-align: center;
         font-size: 16px;   
     }
@@ -643,7 +643,7 @@ input[type="submit"]:hover{
     }
     .bar.half.start{
         width: 8%;
-        height: 22px;
+        height: 25px;
         text-align: center;
         font-size: 16px;
         
@@ -817,7 +817,7 @@ input[type="submit"]:hover{
     }
     .bar.half.start{
         width: 10%;
-        height: 22px;
+        height: 25px;
         font-size: 12px;
         text-align: center;
     }
