@@ -36,7 +36,7 @@ img{
 /*header*/
 header{
     width: 100%;
-    height: 55vh;
+    height: 100vh;
 }
 #background{
     background-image: url("../image/bg.jpg");
@@ -195,7 +195,11 @@ li{
 #Capa_1{
     width: 185px;
     display: block;
-    margin: 32% auto;
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    left: 30%;
+    margin: 5% auto;
 }
 
 .pa4, .pa2, .pa1, .pa5, .pa6{
@@ -609,8 +613,20 @@ input[type="submit"]:hover{
     }
     #Capa_1{
         width: 158px;
+        position: absolute;
+        top: 52%;
         display: block;
-        margin: 37% auto;
+        margin: 5% auto;
+    }
+    .bar.half.start{
+        width: 6%;
+        height: 22px;
+        text-align: center;
+        font-size: 16px;   
+    }
+    .bar{
+        width: 6%;
+        font-size:9px;
     }
 }
 
@@ -628,7 +644,7 @@ input[type="submit"]:hover{
     }
     .landing-text{
         position: absolute;
-        top: 39%;
+        top: 34%;
         left: 50%;
         width: 90%;
         transform: translate(-50%, -50%);
@@ -638,7 +654,7 @@ input[type="submit"]:hover{
 
     .landing-text h2{
         margin-top: 30px;
-        font-size: 10rem;
+        font-size: 10.5rem;
         
     }
     .landing-text h6{
@@ -648,9 +664,14 @@ input[type="submit"]:hover{
         line-height: 34px;
     }
     #Capa_1{
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        right: 30%;
         width: 150px;
         display: block;
-        margin: 45% auto;
+        margin: 5% auto;
+        margin-bottom: 20px;
     }
     .nav-list{
         flex-direction: column;
@@ -807,9 +828,10 @@ input[type="submit"]:hover{
     }
     
     #Capa_1{
-        width: 146px;
-        display: block;
-        margin: 50% auto;
+        width: 150px;
+        position: absolute;
+        top: 60%;
+        margin: auto;
     }
     .landing-text h2{
         margin-top: 30px;
@@ -855,8 +877,11 @@ input[type="submit"]:hover{
     }
     #Capa_1{
         width: 138px;
-        display: block;
-        margin: 70% auto;
+        position: absolute;
+        top: 70%;
+        left: 30%;
+        right: 30%;
+        margin: auto;
         padding-top: 10px;
     }
     .landing-text h2{
@@ -882,12 +907,4 @@ input[type="submit"]:hover{
     }
 }
 
-@media screen and (max-width: 535px){
-    #Capa_1{
-        width: 128px;
-        display: block;
-        margin: 70% auto;
-        padding-top: 20px;
-    }
-    
-}
+
