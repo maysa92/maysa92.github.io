@@ -877,7 +877,7 @@ input[type="submit"]:hover{
     }
     .bar.half.start{
         width: 12%;
-        height: 22px;
+        height: 25px;
         font-size: 12px;
         text-align: center;
     }
