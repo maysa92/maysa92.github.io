@@ -844,11 +844,19 @@ input[type="submit"]:hover{
         text-align: center;
         float: left;
     }
-    
+    .bar{
+        width: 12%;
+    }
+    .bar.half.start{
+        width: 12%;
+        height: 22px;
+        font-size: 12px;
+        text-align: center;
+    }
     #Capa_1{
         width: 138px;
         display: block;
-        margin: 43% auto;
+        margin: 50% auto;
         padding-top: 10px;
     }
     .landing-text h2{
