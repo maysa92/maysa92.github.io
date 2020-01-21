@@ -127,6 +127,10 @@ li{
     z-index:-1;
 }
 
+.open .bar{
+    z-index:-1;
+}
+
 .landing-text{
     position: absolute;
     top: 40%;
