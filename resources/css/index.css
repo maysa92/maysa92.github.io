@@ -146,8 +146,8 @@ li{
     text-align: center;
     user-select: none;  
     font-family: 'The Historia Demo', sans-serif; 
-    animation: title 7.5s ease-in-out ;
-    transition: 1.5s; 
+    animation: title 7s ease-in-out ;
+    transition: 1s; 
     animation-fill-mode: both; 
 }
 
@@ -218,7 +218,6 @@ li{
     animation-delay: 1.5s;
     animation-fill-mode: forwards;
 }
-
 .pa3, .pa0, .pa-1{
     fill:rgb(37,221,221);
     stroke-width: 0px;
@@ -346,8 +345,6 @@ li{
 }
 
 .gallery-img img{
-    justify-content: center;
-    align-items: center;
     width: auto;
     height: auto;
     max-height: 100%;
@@ -592,7 +589,7 @@ input[type="submit"]:hover{
         margin-right: 0;
     }
     .landing-text h2{
-        font-size: 10.5rem;
+        font-size: 10.7rem;
         text-align: center;
         margin-right: 0;
     }
@@ -660,7 +657,7 @@ input[type="submit"]:hover{
 
     .landing-text h2{
         margin-top: 30px;
-        font-size: 10.5rem;
+        font-size: 10.7rem;
         
     }
     .landing-text h6{
@@ -892,8 +889,8 @@ input[type="submit"]:hover{
     }
     .landing-text h2{
         margin-top: 30px;
-        font-size: 7.2rem;  
-        line-height: 100px;
+        font-size: 7.6rem;  
+        line-height: 90px;
     }
     .landing-text{
         position: absolute;
@@ -913,7 +910,7 @@ input[type="submit"]:hover{
     }
 }
 
-@media screen and (max-width: 580px){
+@media screen and (max-width: 550px){
     #Capa_1{
         width: 139px;
         position: absolute;
