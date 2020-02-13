@@ -98,7 +98,7 @@ input[type="radio"]{
 }
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 600px){
     ul li
 {
     background: #ffd036;
