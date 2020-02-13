@@ -47,8 +47,8 @@ h2{
 }
 #control{
     margin: auto;
-    width: 170px;
-    height: 120px;
+    width: 260px;
+    height: 150px;
     font-size: 50px;
     background-color: rgb(255, 255, 255);
     border-radius: 40px;
@@ -60,10 +60,11 @@ h2{
 #mytimer{
     margin: auto;
     width: 50%;
-    font-size: 50px;
-    color: #969696;
-    margin-bottom: 0;
+    font-size: 40px;
+    color: #ddd6b1;
+    margin-top: 30px;
     padding: 0;
+    text-align: center;
 }
 
 #container 
