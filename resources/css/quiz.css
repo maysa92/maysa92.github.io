@@ -70,7 +70,7 @@ input[type="radio"]{
     cursor: pointer;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1080px){
     ul li
 {
     background: #ffd036;
@@ -98,7 +98,7 @@ input[type="radio"]{
 }
 }
 
-@media screen and (max-width: 690px){
+@media screen and (max-width: 750px){
     ul li
 {
     background: #ffd036;
