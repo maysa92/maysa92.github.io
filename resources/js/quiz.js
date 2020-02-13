@@ -1,3 +1,23 @@
+var counter = 3;
+containerqz.style.display='none';
+setInterval(function(){
+  counter--;
+  if(counter >=0){
+    id = document.getElementById("count");
+    id.innerHTML = counter;
+    
+  }
+  if(counter ===0){
+    id.innerHTML = "GO";
+  }
+  if(counter ===-1){
+    id.style.display='none';
+    containerqz.style.display='block';
+  }
+}, 1000);
+
+
+
 (function() 
  {
   var allQuestions = [{
