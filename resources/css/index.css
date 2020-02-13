@@ -53,7 +53,7 @@ header{
     background-color: #00AAAA;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
-    transition: all 650ms cubic-bezier(1, 0, 0, 1);
+    transition: all 500ms cubic-bezier(1, 0, 0, 1);
 }
 .nav-list{
     list-style: none;
@@ -120,9 +120,7 @@ li{
 
 }
 
-.open .bar.start{
-    transform: rotate(70deg) translateX( .8rem);
-    color: transparent;
+.open .bar.half.start{
     z-index:-1;
 }
 
