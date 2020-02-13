@@ -96,7 +96,7 @@ li{
     z-index: 999;
     position: fixed;
     top: 49px;
-    background: linear-gradient(to right, rgb(37, 221, 221), rgb(220,220,220));
+    background: linear-gradient(to right, rgb(0, 192, 192), rgb(185, 255, 255));
     width: 5%;
     height: 20px;
     border-radius: .5rem;
@@ -109,7 +109,7 @@ li{
     position: fixed;
     top: 20px;
     margin-top: 5px;
-    background: linear-gradient(to right, rgb(220, 220, 220), rgb(37,221,221));
+    background: linear-gradient(to right, rgb(185, 255, 255), rgb(0, 192, 192));
     height: 25px;
     text-align: center;
     font-size: 15px;
