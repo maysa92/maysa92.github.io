@@ -40,7 +40,7 @@ h2{
     background-color: #e6d116;
     color: #fff;
     border-radius:30px;
-    box-shadow: inset 20px 30px 40px rgb(245, 195, 15);
+    box-shadow: inset 15px 20px 40px rgb(238, 167, 13);
     
 }
 ul 
@@ -103,7 +103,7 @@ input[type="radio"]{
     width:80%;
     height: 85%;
     border-radius:30px;
-    box-shadow: inset 20px 30px 40px rgb(245, 195, 15);
+    box-shadow: inset 30px 30px 40px rgb(238, 167, 14);
     
 }
 h2{
