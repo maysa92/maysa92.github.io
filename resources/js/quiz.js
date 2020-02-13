@@ -59,7 +59,7 @@
         var header = $('<h2>Question ' + (index + 1) + ' :</h2>');
         element.append(header);
 
-        var question = $('<h3>').append(allQuestions[index].question);
+        var question = $('<h2>').append(allQuestions[index].question);
         element.append(question);
 
         var radio = radioButtons(index);
