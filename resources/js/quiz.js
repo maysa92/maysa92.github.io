@@ -186,6 +186,7 @@ setInterval(function(){
             correct++;
           }
         }
+        active = false;
         score.append('Your score: ' + correct + ' out of ' +allQuestions.length+' !');
         return score;
   }
