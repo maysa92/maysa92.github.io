@@ -7,7 +7,7 @@ h1 {
     font-size: 40px;
 }
 h2{
-    font-size: 36px;
+    font-size: 30px;
 }
 .button 
 {
@@ -34,7 +34,7 @@ h2{
 #container 
 {
     width:70%;
-    height: 70%;
+    height: 80%;
     margin: 120px auto;
     padding: 60px 50px;
     background-color: #e6d116;
@@ -91,7 +91,7 @@ input[type="radio"]{
 .button 
 {
     font-size: 30px;
-    width: 170px;
+    width: 120px;
     height: 35px;
     cursor: pointer;
     margin-top: 5px;
