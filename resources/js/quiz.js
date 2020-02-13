@@ -152,7 +152,7 @@ setInterval(function(){
             correct++;
           }
         }
-        score.append('Your score: ' + correct + ' out of ' +allQuestions.length);
+        score.append('Your score: ' + correct + ' out of ' +allQuestions.length+' !');
         return score;
   }
 })();
