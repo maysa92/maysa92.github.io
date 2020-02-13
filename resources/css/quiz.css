@@ -17,16 +17,16 @@ h2{
     text-align: center;
     justify-content: center;
     float:right;
-    background-color: rgb(255, 200, 51);
+    background-color: rgb(255, 255, 255);
     cursor: pointer;
     margin: 2px;
     border-radius: 12px;
-    box-shadow: inset 0 8px 10px rgb(240, 172, 27);
+    box-shadow: inset 0 8px 5px rgb(241, 226, 193);
 }
 .button a 
 {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color:#ffd549;
     line-height: 40px;
     
 
@@ -45,13 +45,33 @@ h2{
     float: center;
     letter-spacing: -5px;
 }
+#control{
+    margin: auto;
+    width: 170px;
+    height: 120px;
+    font-size: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    color:#ffd549;
+    box-shadow: inset 0 15px 5px rgb(233, 226, 211);
+    border: 0;
+    cursor: pointer;
+}
+#mytimer{
+    margin: auto;
+    width: 50%;
+    font-size: 50px;
+    color: #969696;
+    margin-bottom: 0;
+    padding: 0;
+}
 
 #container 
 {
     width:70%;
     height: 80%;
-    margin: 120px auto;
-    padding: 60px 50px;
+    margin: 10px auto;
+    padding: 80px 80px;
     background-color: #e6d116;
     color: #fff;
     border-radius:30px;
@@ -120,7 +140,6 @@ input[type="radio"]{
     height: 35px;
     cursor: pointer;
     border-radius: 8px;
-    box-shadow: inset 0 8px 10px rgb(240, 172, 27);
 }
 #container 
 {

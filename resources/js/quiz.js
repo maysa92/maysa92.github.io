@@ -1,5 +1,11 @@
 var counter = 3;
+start = document.getElementById('control');
+timer = document.getElementById('mytimer');
 containerqz.style.display='none';
+start.style.display='none';
+timer.style.display='none';
+start.addEventListener("click", changeState);
+
 setInterval(function(){
   counter--;
   if(counter >=0){
@@ -8,14 +14,41 @@ setInterval(function(){
     
   }
   if(counter ===0){
-    id.innerHTML = "go";
-  }
-  if(counter ===-1){
+    start.style.display='block';
     id.style.display='none';
-    containerqz.style.display='block';
-  }
+    timer.style.display='block';
+  } 
 }, 1000);
 
+  var active = false;
+  function starttimer(){
+    if(active){
+      var innertimer = document.getElementById("mytimer").innerHTML;
+      var arr = innertimer.split(":");
+      var min = arr[0];
+      var sec = arr[1];
+      
+      if(sec == 59){
+      if(min < 10)min = "0" + min;
+        sec = 0;
+      }
+      else{
+        sec++;
+        if(sec < 10)sec = "0" + sec;
+      }
+    document.getElementById('mytimer').innerHTML = min + ":" + sec;
+    setTimeout(starttimer, 1000);
+    }
+  }
+
+  function changeState(){
+    if(active ==false){
+      active = true;
+      starttimer();
+      containerqz.style.display='block';
+      start.style.display='none';
+    }
+  }
 
 
 (function() 
