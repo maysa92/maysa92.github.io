@@ -29,6 +29,7 @@ setInterval(function(){
       var sec = arr[1];
       
       if(sec == 59){
+        min++;
       if(min < 10)min = "0" + min;
         sec = 0;
       }
