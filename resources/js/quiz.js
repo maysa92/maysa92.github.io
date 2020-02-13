@@ -8,7 +8,7 @@ setInterval(function(){
     
   }
   if(counter ===0){
-    id.innerHTML = "GO";
+    id.innerHTML = "Go";
   }
   if(counter ===-1){
     id.style.display='none';
