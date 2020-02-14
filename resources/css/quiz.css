@@ -160,12 +160,14 @@ input[type="radio"]{
     .containercd h1{
         color: #ffffff;
         width: 40%;
-        font-size: 55px;
+        font-size: 45px;
         border-radius: 50%;
         margin: 0 auto;
         margin-top: 50px;
     }
-
+    .containerqz h1{
+        font-size: 28px;
+    }
     ul li
 {
     width: 90%;
