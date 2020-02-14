@@ -111,11 +111,12 @@ h2{
 }
 #question{
     margin-top: -20px;
+    margin-bottom: 5px;
 }
 #container 
 {
     width:75%;
-    height: 390px;
+    height: 480px;
     margin: 7px auto;
     padding: 70px 70px;
     background-color: #e6d116;
@@ -183,9 +184,9 @@ input[type="radio"]{
 }
 .button 
 {
-    font-size: 32px;
-    width: 110px;
-    height: 45px;
+    font-size: 30px;
+    width: 100px;
+    height: 42px;
     cursor: pointer;
     border-radius: 8px;
 }
@@ -197,7 +198,7 @@ input[type="radio"]{
 #container 
 {
     width:80%;
-    height: 360px;
+    height: 370px;
     border-radius:30px;
 }
 #containerqz{
