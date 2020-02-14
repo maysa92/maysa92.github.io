@@ -252,6 +252,7 @@ li{
 }
 #description{
     text-transform: none;
+    padding: 15px;
 }
 .section-heading h1{
     font-size: 8rem;
@@ -912,6 +913,9 @@ input[type="submit"]:hover{
         float: left;
         display: block;
         margin-bottom: 50px;
+    }
+    #description{
+        padding: 20px;
     }
 }
 
