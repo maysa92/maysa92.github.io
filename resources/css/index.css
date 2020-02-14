@@ -250,7 +250,9 @@ li{
     opacity: .5;
     color: #00AAAA;
 }
-
+#description{
+    text-transform: none;
+}
 .section-heading h1{
     font-size: 8rem;
     opacity: .5;
