@@ -270,9 +270,11 @@ li{
     font-size: 16px;
 }
 .profile-img{
-    flex: 1;
-    margin-right: 6rem;
-    width: 50%;
+    text-align: center;
+}
+.profile-img img{
+    width: 400px;
+    margin: auto;
 }
 .profile-img:hover{
     filter: grayscale(70%);
@@ -661,9 +663,7 @@ input[type="submit"]:hover{
         width: 92%;
     }
     .profile-img{
-        margin: 0 auto;
-        width: 90%;
-        margin-bottom: 60px;
+        margin-bottom: 80px;
     }
     .about .container{
         flex-direction: column; 
@@ -762,10 +762,6 @@ input[type="submit"]:hover{
         width: 90%;
         transform: translate(-50%, -50%);
         line-height: 120px;
-    }
-    .profile-img{
-        float: left;
-        margin-bottom: 70px;
     }
     #description{
         padding: 20px;
