@@ -35,7 +35,7 @@ img{
 /*header*/
 header{
     width: 100%;
-    height: 110vh;
+    height: 130vh;
 }
 #background{
     background-image: url("../image/bg.jpg");
@@ -125,24 +125,24 @@ li{
     z-index:-1;
 }
 .landing-text{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    width: 90%;
-    transform: translate(-50%, -50%);
+    width: 100%;
     z-index: 1;
     line-height: 155px;
 }
 .landing-text h2{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    border: none;
     font-size: 13.7rem;
     color:#00AAAA;
-    padding: 0rem;
-    text-align: center;
-    user-select: none;  
+    text-align: center; 
     font-family: 'The Historia Demo', sans-serif; 
     animation: title 7s ease-in-out ;
     transition: 1s; 
     animation-fill-mode: both; 
+    display: flex;
 }
 
 @keyframes title{
@@ -171,6 +171,9 @@ li{
 }
 
 .landing-text h6{
+    position: absolute;
+    top: 80%;
+    left: 31%;
     margin-top: 20px;
     text-align: center;
     font-size: 2rem;
@@ -195,10 +198,10 @@ li{
     width: 185px;
     display: block;
     position: absolute;
-    top: 50%;
-    right: 30%;
-    left: 30%;
-    margin: 5% auto;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-bottom: 100px;
 }
 .pa4, .pa2, .pa1, .pa5, .pa6{
     fill-opacity: 0;
@@ -226,7 +229,7 @@ li{
 
 /*about*/
 .about .container{
-    margin-top: 28px;
+    margin-top: 128px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -393,7 +396,7 @@ li{
     height: 370px;
     background: #00AAAA;
     overflow: hidden;
-    flex: 2 0 auto;
+
 }
 
 #container-website span{
@@ -727,9 +730,9 @@ input[type="submit"]:hover{
         padding-right: 20px;
     }
     #Capa_1{
-        width: 158px;
+        width: 168px;
         position: absolute;
-        top: 60%;
+        top: 90%;
         margin: 5% auto;
     }
     .bar.half.start{
@@ -753,30 +756,21 @@ input[type="submit"]:hover{
         height: 25px;
         font-size: 16px;   
     }
-    .landing-text{
-        position: absolute;
-        top: 34%;
-        left: 50%;
-        width: 90%;
-        transform: translate(-50%, -50%);
-        line-height: 130px;
-    }
 
     .landing-text h2{
-        margin-top: 30px;    
+        margin-top: 20px; 
+        left: 32%;   
     }
     .landing-text h6{
         font-size: 1.7rem;
-        margin-right: 0;
+        left: 27%;
         line-height: 34px;
     }
     #Capa_1{
         position: absolute;
-        top: 60%;
-        left: 30%;
-        right: 30%;
+        top: 92%;
+        left: 50%;
         width: 150px;
-        margin-bottom: 20px;
     }
     li{
         margin: 2rem 0;
@@ -847,14 +841,14 @@ input[type="submit"]:hover{
         padding-right: 20px;
         margin: 0 auto;
     }
-    #Capa_1{
-        width: 180px;
-        position: absolute;
-        top: 60%;
-    }
     .landing-text h2{
-        margin-top: 30px;
-        font-size: 8.8rem;
+        margin-top: 20px; 
+        left: 32%;   
+    }
+    .landing-text h6{
+        font-size: 1.7rem;
+        left: 27%;
+        line-height: 34px;
     }
 }
 @media screen and (max-width: 720px){
@@ -874,33 +868,28 @@ input[type="submit"]:hover{
         height: 24px;
         font-size: 13px;
     }
-    #Capa_1{
-        width: 150px;
-        position: absolute;
-        top: 70%;
-    }
     .landing-text h2{
         margin-top: 30px;
         font-size: 8.5rem;  
         line-height: 95px;
     }
-    .landing-text{
-        position: absolute;
-        top: 36%;
-        left: 50%;
-        width: 90%;
-        transform: translate(-50%, -50%);
-        line-height: 120px;
-    }
     #description{
         padding: 20px;
+    }
+    .landing-text h2{
+        margin-top: 20px; 
+        left: 40%;   
+    }
+    .landing-text h6{
+        font-size: 1.7rem;
+        left: 20%;
+        line-height: 34px;
     }
 }
 
 @media screen and (max-width: 550px){
     #Capa_1{
         width: 139px;
-        position: absolute;
-        top: 75%;
+        top: 95%;
     }
 }
