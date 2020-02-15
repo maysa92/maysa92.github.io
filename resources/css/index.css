@@ -877,13 +877,13 @@ input[type="submit"]:hover{
         padding: 20px;
     }
     .landing-text h2{
-        margin-top: 20px; 
-        left: 40%;   
+        margin-top: 0px; 
+        left: 38%;   
     }
     .landing-text h6{
-        font-size: 1.7rem;
+        font-size: 1.4rem;
         left: 20%;
-        line-height: 34px;
+        line-height: 22px;
     }
 }
 
