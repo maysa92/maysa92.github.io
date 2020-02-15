@@ -874,4 +874,7 @@ input[type="submit"]:hover{
         left: 50%;
         margin: auto;
     }
+    .profile-img img{
+        width: 250px;
+    }
 }
