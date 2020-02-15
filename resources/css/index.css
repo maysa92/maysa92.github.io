@@ -397,6 +397,7 @@ li{
     height: 370px;
     background: #00AAAA;
     overflow: hidden;
+    cursor: pointer;
 
 }
 
@@ -854,7 +855,7 @@ input[type="submit"]:hover{
     .landing-text h2{
         margin-top: 30px;
         line-height: 120px;
-        font-size: 10.8rem;  
+        font-size: 10.2rem;  
         top: 48%;
     }
     #description{
