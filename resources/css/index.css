@@ -7,7 +7,6 @@
 html{
     font-size: 12px;
 }
-
 body{
     width: 100%;
     height: 100%;
@@ -119,15 +118,12 @@ li{
     animation: menu 7.5s ease-in-out infinite;
 
 }
-
 .open .bar.half.start{
     z-index:-1;
 }
-
 .open .bar{
     z-index:-1;
 }
-
 .landing-text{
     position: absolute;
     top: 40%;
@@ -190,8 +186,7 @@ li{
     padding: 10px;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-  }
-
+}
 .highlight:hover{
     filter: grayscale(30%);
     filter: brightness(1.1);
@@ -205,7 +200,6 @@ li{
     left: 30%;
     margin: 5% auto;
 }
-
 .pa4, .pa2, .pa1, .pa5, .pa6{
     fill-opacity: 0;
     stroke: rgb(37,221,221);
@@ -228,6 +222,8 @@ li{
         stroke-dashoffset: 0;
     }
 }
+
+
 /*about*/
 .about .container{
     margin-top: 28px;
@@ -235,7 +231,6 @@ li{
     align-items: center;
     justify-content: center;
 }
-
 .about-heading{
     text-align: center;
     text-transform: uppercase;
@@ -244,7 +239,6 @@ li{
     font-size: 10rem;
     font-family: 'The Historia Demo', sans-serif;
 }
-
 .about-heading h1{
     font-size: 10rem;
     opacity: .5;
@@ -260,13 +254,11 @@ li{
     color: #00AAAA;
     font-family: 'The Historia Demo', sans-serif;
 }
-
 .about-heading h6{
     font-size: 2rem;
     font-weight: 400;
     color: rgb(103, 105, 105)
 }
-
 .section-heading h6{
     font-size: 2rem;
     font-weight: 400;
@@ -274,11 +266,9 @@ li{
     font-family: 'The Historia Demo', sans-serif;
     margin-top: 20px;
 }
-
 .about p{
     font-size: 16px;
 }
-
 .profile-img{
     flex: 1;
     margin-right: 6rem;
@@ -291,26 +281,22 @@ li{
 .about-details{
     flex:1;
 }
-
 .container{
     width: 90%;
     max-width: 120rem;
     margin: 0 auto;
     position: relative;
 }
-
 .section-heading{
     text-align: center;
     margin-bottom: 1rem;
 }
-
 .section-heading h1{
     text-transform: uppercase;
     position: relative;
     margin-bottom: 1rem;
     font-family: 'The Historia Demo', sans-serif;
 }
-
 .section-heading h1::before,
 .section-heading h1::after{
     position: absolute;
@@ -318,13 +304,11 @@ li{
     transform: translateX(-50%);
     content: ' ';
 }
-
 .section-heading h1::before{
     width: 10rem;
     height: 3px;
     border-radius: .8rem;
 }
-
 .section-heading h1::after{
     width:1.5rem;
     height: 1rem;
@@ -344,7 +328,6 @@ li{
     align-items: center;
     justify-content: center;
 }
-
 .gallery-img img{
     width: auto;
     height: auto;
@@ -358,7 +341,6 @@ li{
     margin-right: auto;
     display: block;
 }
-
 #second{
     background: rgb(143, 189, 189);
     opacity: 5;
@@ -367,7 +349,6 @@ li{
     text-align: center;
     flex-grow: 1;
 }
-
 .bold{
     width:30%;
     font-weight: 500;
@@ -377,7 +358,6 @@ li{
     align-items: center;
     margin-top: 50px;
 }
-
 .profile-img{
     width: 80%;
     display: flex;
@@ -394,15 +374,6 @@ li{
 
 /* Container holding the image and the text */
 .container-img {
-    position: relative;
-    margin: 1px;
-    width: 380px;
-    height: 380px;
-    text-align: center;
-    float: left;
-    display: block;
-}
-.container-website {
     position: relative;
     margin: 1px;
     width: 420px;
@@ -443,15 +414,12 @@ li{
 .download h3{
     color: rgb(255, 255, 255);
 }
-
 .download h3:hover{
     color: #bdbdbd;
 }
-
 .download:hover{
     background: transparent;
 }
-
 #website{
     margin-top: 30px;
 }
@@ -528,7 +496,6 @@ form{
 form label{
     font-size: 1.5rem;
 }
-
 input, select, textarea{
     width: 100%;
     padding: 1rem;
@@ -536,7 +503,6 @@ input, select, textarea{
     border: none;
     outline-color: rgb(143,189,189);
 }
-
 input[type="submit"]{
     width: initial;
     background-color: rgb(241, 241, 241);
@@ -544,7 +510,6 @@ input[type="submit"]{
     border-radius: .8rem;
     cursor: pointer;
 }
-
 input[type="submit"]:hover{
     color: #00AAAA;
 }
@@ -589,6 +554,12 @@ input[type="submit"]:hover{
 
 /*responsive*/
 @media screen and (max-width: 1050px){
+    .gallery-img img{
+        position:absolute;
+        bottom:0px;
+        right:0px;
+        left: 0px;
+    }
     .landing-text h6{
         font-size: 1.7rem;
         margin-right: 0;
@@ -600,8 +571,8 @@ input[type="submit"]:hover{
     .container-img {
         position: relative;
         margin: 1px;
-        width: 330px;
-        height: 330px;
+        width: 360px;
+        height: 360px;
     }
     .text-block {
         bottom: 0px;
@@ -636,8 +607,7 @@ input[type="submit"]:hover{
     .bar.half.start{
         width: 8%;
         height: 25px;
-        font-size: 16px;
-        
+        font-size: 16px;   
     }
     .landing-text{
         position: absolute;
@@ -649,9 +619,7 @@ input[type="submit"]:hover{
     }
 
     .landing-text h2{
-        margin-top: 30px;
-  
-        
+        margin-top: 30px;    
     }
     .landing-text h6{
         font-size: 1.7rem;
@@ -665,9 +633,6 @@ input[type="submit"]:hover{
         right: 30%;
         width: 150px;
         margin-bottom: 20px;
-    }
-    .nav-list{
-        flex-direction: column;
     }
     li{
         margin: 2rem 0;
@@ -695,11 +660,9 @@ input[type="submit"]:hover{
         margin: 0 0 0 auto;
         width: 92%;
     }
-    
     .profile-img{
         margin: 0 auto;
         width: 90%;
-        flex: 1;
         margin-bottom: 60px;
     }
     .about .container{
@@ -709,7 +672,6 @@ input[type="submit"]:hover{
         padding-bottom: 50%;
     }
     .container-img {
-        position: relative;
         margin: 20px;
         width: 360px;
         height: 360px;
@@ -725,44 +687,23 @@ input[type="submit"]:hover{
         padding-right: 20px;
         font-size: 9px;
     }
-
     .gallery-img{
         width: 98%;
         display: flex;
         flex-direction: column;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
-    .gallery-img img{
-        max-width: 100%;
-        max-height: 100%;
-        border-radius: 5px;
-        padding: 5px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        position: absolute;
-        bottom:0px;
-        right:0px;
-        left: 0px;
     }
     .container-img {
         position: relative;
         margin: 5px;
-        width: 340px;
-        height: 340px;
+        width: 410px;
+        height: 410px;
     }
 }
 @media screen and (max-width: 768px){
-    .gallery-img img{
-        width: 100%;
-        height: auto;
-        border: 1px solid #ddd;
-    }
     .container-img {
-        width: 310px;
-        height: 310px;
+        width: 400px;
+        height: 400px;
     }
     .bar{
         width: 10%;
@@ -780,37 +721,21 @@ input[type="submit"]:hover{
         padding-right: 20px;
         margin: 0 auto;
     }
-    
     #Capa_1{
-        width: 150px;
+        width: 180px;
         position: absolute;
         top: 60%;
-        margin: auto;
     }
     .landing-text h2{
         margin-top: 30px;
-        font-size: 8rem;
+        font-size: 8.8rem;
     }
-    
 }
 @media screen and (max-width: 720px){
-    .gallery-img img{
-        width: 100%;
-        height: auto;
-        max-height: 100%;
-        max-width: 100%;
-        padding: 5px;
-        margin-left: auto;
-        margin-right: auto;
-        position:absolute;
-        bottom:0px;
-        right:0px;
-        left: 0px;
-    }
     .container-img {
         margin: 5px;
-        width: 320px;
-        height: 320px;
+        width: 380px;
+        height: 380px;
     }
     .bar{
         width: 12%;
@@ -821,16 +746,13 @@ input[type="submit"]:hover{
         font-size: 13px;
     }
     #Capa_1{
-        width: 142px;
+        width: 150px;
         position: absolute;
         top: 70%;
-        left: 30%;
-        right: 30%;
-        padding-top: 10px;
     }
     .landing-text h2{
         margin-top: 30px;
-        font-size: 7.9rem;  
+        font-size: 8.5rem;  
         line-height: 95px;
     }
     .landing-text{
@@ -843,7 +765,7 @@ input[type="submit"]:hover{
     }
     .profile-img{
         float: left;
-        margin-bottom: 50px;
+        margin-bottom: 70px;
     }
     #description{
         padding: 20px;
@@ -855,10 +777,5 @@ input[type="submit"]:hover{
         width: 139px;
         position: absolute;
         top: 75%;
-        left: 30%;
-        right: 30%;
-        margin: auto;
-        padding-top: 10px;
     }
-
 }
