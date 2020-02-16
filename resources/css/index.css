@@ -131,7 +131,7 @@ li{
 }
 .landing-text h2{
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: none;
@@ -172,7 +172,7 @@ li{
 
 .landing-text h6{
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -199,7 +199,7 @@ li{
     width: 185px;
     display: block;
     position: absolute;
-    top: 100%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, 0%);
     margin-bottom: 100px;
@@ -230,7 +230,7 @@ li{
 
 /*about*/
 .about .container{
-    margin-top: 128px;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
