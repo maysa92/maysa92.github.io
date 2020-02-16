@@ -406,21 +406,21 @@ li{
     background: url("../image/tutor.png");
     position: absolute;
     height: 100%;
-    transition: 1s;
+    transition: .8s;
 }
 #container-website2 span{
     left: 0;
     background: url("../image/quiz.png");
     position: absolute;
     height: 100%;
-    transition: 1s;
+    transition: .8s;
 }
 #container-website3 span{
     left: 0;
     background: url("../image/cafe.jpg");
     position: absolute;
     height: 100%;
-    transition: 1s;
+    transition: .8s;
 }
 #container-website span:nth-child(1){
     z-index:10;
@@ -435,7 +435,7 @@ li{
 #container-website span:nth-child(3){
     z-index:8;
     width: 100%;
-    transition-delay: .3s;
+    transition-delay: .2s;
 }
 #container-website2 span:nth-child(1){
     z-index:10;
@@ -450,7 +450,7 @@ li{
 #container-website2 span:nth-child(3){
     z-index:8;
     width: 100%;
-    transition-delay: .3s;
+    transition-delay: .2s;
 }
 
 #container-website3 span:nth-child(1){
@@ -466,51 +466,45 @@ li{
 #container-website3 span:nth-child(3){
     z-index:8;
     width: 100%;
-    transition-delay: .3s;
+    transition-delay: .2s;
 }
 
 #container-website:hover span{
     transform: translateY(-100%);
-    transition: .5s;
+    transition: .35s;
 }
 #container-website2:hover span{
     transform: translateY(-100%);
-    transition: .5s;
+    transition: .35s;
 }
 #container-website3:hover span{
     transform: translateY(-100%);
-    transition: .5s;
+    transition: .35s;
 }
 #container-website:hover span:nth-child(1){
-    transition-delay: .5s;
+    transition-delay: .2s;
 }
 #container-website:hover span:nth-child(2){
-    transition-delay: .3s;
-}
-#container-website:hover span:nth-child(3){
     transition-delay: .1s;
 }
+
 #container-website2:hover span:nth-child(1){
-    transition-delay: .5s;
+    transition-delay: .2s;
 }
 #container-website2:hover span:nth-child(2){
-    transition-delay: .3s;
-}
-#container-website2:hover span:nth-child(3){
     transition-delay: .1s;
 }
+
 #container-website3:hover span:nth-child(1){
-    transition-delay: .5s;
+    transition-delay: .2s;
 }
 #container-website3:hover span:nth-child(2){
-    transition-delay: .3s;
-}
-#container-website3:hover span:nth-child(3){
     transition-delay: .1s;
 }
+
 #websiteContent{
     transform: translateY(-100%);
-    transition: 2s;
+    transition: 1.8s;
 }
 #websiteContent a, #websiteContent h2{
     width: 200px;
@@ -523,19 +517,18 @@ li{
     color: white;
     text-align: center;
     font-size: 30px;
-    
 }
 #container-website:hover #websiteContent{
     transform: translateY(100%);
-    transition: 1s;
+    transition: .8s;
 }
 #container-website2:hover #websiteContent{
     transform: translateY(100%);
-    transition: 1s;
+    transition: .8s;
 }
 #container-website3:hover #websiteContent{
     transform: translateY(10%);
-    transition: 1s;
+    transition: .8s;
 }
 
 /* Bottom right text */
