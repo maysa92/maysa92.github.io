@@ -390,11 +390,11 @@ li{
     display: block;
 }
 #container-website, #container-website2, #container-website3{
-    border-radius: 10px;
+    border-radius: 20px;
     position: relative;
     margin: 3% auto;
     width: 370px;
-    height: 370px;
+    height: 340px;
     background: #00AAAA;
     overflow: hidden;
     cursor: pointer;
@@ -526,15 +526,15 @@ li{
     
 }
 #container-website:hover #websiteContent{
-    transform: translateY(130%);
+    transform: translateY(100%);
     transition: 1s;
 }
 #container-website2:hover #websiteContent{
-    transform: translateY(130%);
+    transform: translateY(100%);
     transition: 1s;
 }
 #container-website3:hover #websiteContent{
-    transform: translateY(20%);
+    transform: translateY(10%);
     transition: 1s;
 }
 
