@@ -758,7 +758,7 @@ input[type="submit"]:hover{
     }
     #Capa_1{
         position: absolute;
-        top: 92%;
+        top: 90%;
         left: 50%;
         width: 160px;
     }
@@ -854,9 +854,9 @@ input[type="submit"]:hover{
     }
     .landing-text h2{
         margin-top: 30px;
-        line-height: 120px;
+        line-height: 105px;
         font-size: 10.2rem;  
-        top: 48%;
+        top: 40%;
     }
     #description{
         padding: 20px;
@@ -864,18 +864,21 @@ input[type="submit"]:hover{
     .landing-text h6{
         font-size: 1.4rem;
         line-height: 22px;
-        top: 85%;
+        top: 79%;
     }
 }
 
 @media screen and (max-width: 550px){
     #Capa_1{
         width: 139px;
-        top: 95%;
+        top: 90%;
         left: 50%;
         margin: auto;
     }
     .profile-img img{
         width: 220px;
+    }
+    .landing-text h6{
+        top: 71%;
     }
 }
