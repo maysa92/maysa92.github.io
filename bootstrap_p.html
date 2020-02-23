@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang = "en" >
+
+<head>
+<meta charset = "UTF-8">
+<meta name = "viewport"
+content = "width=device-width, initial-scale = 1.0">
+<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+
+<title>Bootstrap Practice</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://unpkg.com/feather-icons"></script>
+
+<style>
+body{
+    font-family: 'Arial';
+    font-weight: 400;
+    }
+.header{
+    height: 100vh;
+    background-image: url("resources/image/shop.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.btn-outline-light:hover{
+    color: black;
+}
+.service-item:hover{
+    color: #00AAAA;
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+<header class = "header d-flex justify-content-center align-items-center">
+    <div class="text-center text-white">
+    <h1 style = "font-family: 'Georgia', serif;" class = "font-italic"> Welcome to The Flower Shop</h1>
+    <p class = "my-3 text-light bg-dark"> You deserve a flower-like life.</p>
+        <div class = "mt-4">
+            <a href = "#about" class = "btn btn-outline-info">Get started</a>
+            <a href = "#service" class = "btn btn-outline-light">Services</a>
+        </div>
+    </div>
+</header>
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top" style = "background-color:rgba(0,0,0,0.9);">
+  <a class="navbar-brand" href="#">Menu</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div style = "font-family: 'Georgia', serif;" class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#New">What's New <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Contact
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#contact">Find Us</a>
+          <a class="dropdown-item" href="#write">Write to Us</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+<section class = "py-5" id = "about">
+    <div class = "container">
+    <h2 style = "font-family: 'Georgia', serif;" class = "text-center font-italic">About Us</h2>
+    <p class = "text-center text-secondary"> We are the first flower shop in the little town of Flory.</p>
+        <div class = "row align-items-center">
+            <div class = "col-md-6">
+                <img class = "img-fluid rounded-pill" src = "resources/image/cat.jpg" alt="">
+            </div>
+            <div class = "col-md-6">
+            <h3 style = "font-family: 'Georgia', serif;" class = "text-center py-2 font-italic">Fresh Flowers Every Day</h3>
+            <p class = "text-center font-weight-light text-secondary py-2 px-5">Freshness is the heart of flower. <br>Every morning, fresh Rose, African Daisy, and Alyssum are shipped from the largest flower farm in the town of Agapanthus.
+            For quality flower arrangements and gifts in Flory, our florists are committed to creating beautiful, unique floral gifts for any occasion. We offer flower delivery in the town and nationwide delivery through our florist network!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class = "py-5" style = "background-image: url(resources/image/flower.jpg);background-size: cover; background-position: bottom center;">
+    <div class = "container text-white" id = "service">
+        <h2 style = "font-family: 'Georgia', serif;" class = "text-center font-italic">Services</h2>
+        <p class = "text-center"> </p>
+        <div class = "row d-flex justify-content-center align-items-center">
+            <div class = "col-md-6">
+                <div class = "service-item pt-4">
+                <i data-feather="zap" class="mx-auto mb-2" style="width: 500px;"></i>
+                <h5 class = "text-center font-weight-light">Same Day Delivery</h5>
+                </div>
+                <div class = "service-item pt-4">
+                <i data-feather="heart" class="mx-auto mb-2" style="width: 500px;"></i>
+                <h5 class = "text-center">Holidays and Birthday</h5>
+                </div>
+            </div>
+            <div class = "col-md-6">
+                <div class = "service-item pt-4">
+                <i data-feather="feather" class="mx-auto mb-2" style="width: 500px;"></i>
+                <h5 class = "text-center">Garden Design</h5>
+                </div>
+                <div class = "service-item pt-4">
+                <i data-feather="sun" class="mx-auto mb-2" style="width: 500px;"></i>
+                <h5 class = "text-center">Plants and Crafts</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<section class = "my-5 py-5">
+    <div class = "container text-dark" id = "New">
+        <h2 style = "font-family: 'Georgia', serif;" class = "text-center font-italic">What's New</h2>
+        <p class = "text-center text-muted"> Call or leave a message for more details.</p>
+        <p class = "text-center"> </p>
+        <div class = "row d-flex justify-content-center align-items-center">
+            <div class = "col-md-4">
+                <div class = "service-item pt-4">
+                <img class = "img-fluid rounded-circle shadow-sm p-2 mb-4 bg-white rounded" src = "resources/image/wedding.jpg" alt="">
+                <h5 class = "text-center font-weight-light">Wedding Special</h5>
+                </div>
+                <div class = "service-item pt-4">
+                <img class = "img-fluid rounded-circle shadow-sm p-2 mb-4 bg-white rounded" src = "resources/image/blossom.jpg" alt="">
+                <h5 class = "text-center">Spring Deco</h5>
+                </div>
+            </div>
+            <div class = "col-md-4">
+                <div class = "service-item pt-4">
+                <img class = "img-fluid rounded-circle shadow-sm p-2 mb-4 bg-white rounded" src = "resources/image/celebration.jpg" alt="">
+                <h5 class = "text-center">Celebration</h5>
+                </div>
+            </div>
+           <div class = "col-md-4">
+                <div class = "service-item pt-4">
+                <img class = "img-fluid rounded-circle shadow-sm p-2 mb-4 bg-white rounded" src = "resources/image/craft.jpg" alt="">
+                <h5 class = "text-center">Craft Class</h5>
+                </div>
+                <div class = "service-item pt-4">
+                <img class = "img-fluid rounded-circle shadow-sm p-2 mb-4 bg-white rounded" src = "resources/image/religion.jpg" alt="">
+                <h5 class = "text-center">Religion</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<section class = "py-5" id = "contact">
+    <div class = "container">
+    <h2 style = "font-family: 'Georgia', serif;" class = "text-center font-italic">Contact</h2>
+    <p class = "text-center text-info mt-5">Address</p>
+    <p class = "text-center text-secondary">No.214, Love Road, Flory, SC 29880 </p>
+    <p class = "text-center text-info">Open Hours</p>
+    <p class = "text-center text-secondary">Monday to Saturday 7:00 - 18:00 </p>
+    <p class = "text-center text-info">Reservation Phone Number</p>
+    <p class = "text-center text-secondary">843-000-0000</p>
+
+    <h4 style = "font-family: 'Georgia', serif;" class = "text-center text-dark font-italic mt-5">Write to Us</h4>
+    <form id = "write" class = "mt-2">
+    <div class="form-group">
+        <label>Name</label>
+        <div class="row">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Last name">
+            </div>
+    </div>
+    <div class="form-group mt-3">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Message</label>
+        <input type="textarea" class="form-control">
+    </div>
+        <button type="submit" class="btn btn-info">Submit</button>
+    </form>
+
+    </div>
+</section>
+
+
+<footer class = "bg-light py-3 mt-3">
+    <div class = "container">
+    <div class="up" id="up">
+    <i class="fas fa-chevron-up"></i>
+    <p class = "text-center text-info">&copy; 2020 Cheryl Chen</p>
+  </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+      feather.replace()
+</script>
+</body>
+
+</html>
+
