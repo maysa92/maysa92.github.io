@@ -6,7 +6,9 @@ document.getElementById('container-website2').onclick = function(){
   window.open('quiz.html','_blank');
 };
 
-
+document.getElementById('container-website4').onclick = function(){
+  window.open('bootstrap_p.html','_blank');
+};
 $(document).ready(function(){
   $('.menu-toggler').on('click',function(){
     $(this).toggleClass('open');

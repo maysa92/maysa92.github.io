@@ -329,7 +329,7 @@ li{
 .gallery-img{
     width: 95%;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -381,7 +381,7 @@ li{
     text-align: center;
     display: block;
 }
-#container-website, #container-website2, #container-website3{
+#container-website, #container-website2, #container-website3, #container-website4{
     border-radius: 20px;
     position: relative;
     margin: 3% auto;
@@ -414,85 +414,48 @@ li{
     height: 100%;
     transition: .8s;
 }
-#container-website span:nth-child(1){
+#container-website4 span{
+    left: 0;
+    background: url("../image/flowershop.jpg");
+    position: absolute;
+    height: 100%;
+    transition: .8s;
+}
+#container-website span:nth-child(1), #container-website2 span:nth-child(1),#container-website3 span:nth-child(1),#container-website4 span:nth-child(1){
     z-index:10;
     width: 33%;
     transition-delay: 0;
 }
-#container-website span:nth-child(2){
+#container-website span:nth-child(2),#container-website2 span:nth-child(2),#container-website3 span:nth-child(2),#container-website4 span:nth-child(2){
     z-index:9;
     width: 66%;
     transition-delay: .1s;
 }
-#container-website span:nth-child(3){
-    z-index:8;
-    width: 100%;
-    transition-delay: .2s;
-}
-#container-website2 span:nth-child(1){
-    z-index:10;
-    width: 33%;
-    transition-delay: 0;
-}
-#container-website2 span:nth-child(2){
-    z-index:9;
-    width: 66%;
-    transition-delay: .1s;
-}
-#container-website2 span:nth-child(3){
+#container-website span:nth-child(3),#container-website2 span:nth-child(3),#container-website3 span:nth-child(3),#container-website4 span:nth-child(3){
     z-index:8;
     width: 100%;
     transition-delay: .2s;
 }
 
-#container-website3 span:nth-child(1){
-    z-index:10;
-    width: 33%;
-    transition-delay: 0;
-}
-#container-website3 span:nth-child(2){
-    z-index:9;
-    width: 66%;
-    transition-delay: .1s;
-}
-#container-website3 span:nth-child(3){
-    z-index:8;
-    width: 100%;
-    transition-delay: .2s;
-}
-
-#container-website:hover span{
+#container-website:hover span, #container-website2:hover span, #container-website3:hover span, #container-website4:hover span{
     transform: translateY(-100%);
     transition: .35s;
 }
-#container-website2:hover span{
-    transform: translateY(-100%);
-    transition: .35s;
-}
-#container-website3:hover span{
-    transform: translateY(-100%);
-    transition: .35s;
-}
-#container-website:hover span:nth-child(1){
+
+#container-website:hover span:nth-child(1), #container-website3:hover span:nth-child(1){
     transition-delay: .2s;
 }
-#container-website:hover span:nth-child(2){
+#container-website:hover span:nth-child(2), #container-website3:hover span:nth-child(2){
     transition-delay: .1s;
 }
 
-#container-website2:hover span:nth-child(1){
+#container-website2:hover span:nth-child(1), #container-website4:hover span:nth-child(1){
     transition-delay: .2s;
 }
-#container-website2:hover span:nth-child(2){
+#container-website2:hover span:nth-child(2), #container-website4:hover span:nth-child(2){
     transition-delay: .1s;
 }
 
-#container-website3:hover span:nth-child(1){
-    transition-delay: .2s;
-}
-#container-website3:hover span:nth-child(2){
-    transition-delay: .1s;
-}
 
 #websiteContent{
     transform: translateY(-100%);
@@ -510,16 +473,13 @@ li{
     text-align: center;
     font-size: 30px;
 }
-#container-website:hover #websiteContent{
-    transform: translateY(100%);
-    transition: .8s;
-}
-#container-website2:hover #websiteContent{
+
+#container-website:hover #websiteContent, #container-website2:hover #websiteContent, #container-website4:hover #websiteContent{
     transform: translateY(100%);
     transition: .8s;
 }
 #container-website3:hover #websiteContent{
-    transform: translateY(10%);
+    transform: translateY(11%);
     transition: .8s;
 }
 
